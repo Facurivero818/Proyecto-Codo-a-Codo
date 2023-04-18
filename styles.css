@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 0;
+}
+body{
+    position: relative;
+    width: 100%;
+}
+
+.menu{
+    position:fixed;
+    text-align: center;
+    width: 100%;
+    background-color: #2c3d88;
+    border-radius: 0  0 15px 15px;
+    z-index: 1;
+}
+
+.item{
+    display: inline-block;
+}
+
+.item > a{
+    text-decoration: none;
+}
+
+.item__box{
+    padding: 20px 20px 10px 20px;
+    color: #f6f7f6;
+    font-weight: 500;
+}
+
+.item__box > span{
+    display: block;
+    padding-top: 10px;
+}
+
+.item__box > i{
+    width: 50px;
+}
+.sections{
+    display: flex;
+    width: 100%;
+    min-height: 550px;
+    border: 3px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formulary{
+    display: flex;
+    width: 70vw;
+    min-height: 250px;
+    padding: 40px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    background-color: #9A9BC0;
+    border: 2px solid black;
+    border-radius: 15px;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.formulary__boxcheck{
+    background-color: #f6f7f6;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px;
+}
+.formulary__boxdestiny{
+    background-color: #f6f7f6;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.formulary__boxdestiny > input{
+    display: block;
+}
+.formulary__boxdate{
+    background-color: #f6f7f6;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.formulary__boxdate > label{
+    display: block;
+}
+.formulary__boxrest{
+    background-color: #f6f7f6;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.formulary__boxrest > input,select{
+    display: block;
+}
+.formulary__button{
+    background-color: #f6f7f6;
+    width: 80%;
+    margin: 10px;
+}
+
+
+
