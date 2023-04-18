@@ -68,27 +68,54 @@ body{
     border: 2px solid black;
     margin: 10px;
 }
-
 .formulary__boxcheck{
-    width: 80%;
+    text-align: center;
+    width:60%;
+    border-radius: 10px;
+    padding:6px;
 }
 .formulary__boxdestiny{
     height: 100px;
+    border-radius: 10px;
 }
 .formulary__boxdate{
     height: 100px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
 }
 .formulary__boxrest{
     height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
 }
 .formulary__button{
     width: 80%;
 }
+
+.formulary__boxcheck > label{
+    margin: 0 20px 0 20px;
+}
+.formulary__boxcheck > input{
+    margin: 0px 20px 0 20px;
+
+}
 .formulary__boxdestiny > input{
     display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 6px;
+    accent-color:#9A9BC0;
+    border-radius: 10px;
 }
 .formulary__boxdate > label{
     display: block;
+    text-align: center;  
+}
+.formulary__boxdate > input{
+    display: block;
+    margin-bottom: 5px;
 }
 .formulary__boxrest > input,select{
     display: block;
