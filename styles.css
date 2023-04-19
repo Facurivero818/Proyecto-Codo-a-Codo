@@ -3,9 +3,7 @@
 #5F9DF7 => CELESTE
 #FFF7E9 => BEIGE
 #FF731D => NARANJA
-
 */
-
 
 *{
     margin: 0;
@@ -66,7 +64,7 @@ body{
     padding: 40px;
     margin-bottom: 100px;
     margin-top: 150px;
-    background-color: #5F9DF7;
+    background: linear-gradient(to left,#5F9DF7,#1746A2);
     border-radius: 15px;
     flex-wrap: wrap;    
     justify-content: center;
@@ -98,9 +96,6 @@ body{
     text-align: center;
     padding: 8px;
 }
-.formulary__button{
-    width: 80%;
-}
 
 .formulary__boxcheck > label{
     margin: 0 20px 0 20px;
@@ -109,13 +104,16 @@ body{
     margin: 0px 20px 0 20px;
 
 }
-.formulary__boxdestiny > input{
-    display: block;
+.formulary__boxdestiny__box> input{
+    border:none;
     width: 250px;
     padding: 10px;
     margin: 6px;
     accent-color:#9A9BC0;
     border-radius: 10px;
+}
+.formulary__boxdestiny__box> i{
+    margin-left: 6px;
 }
 .formulary__boxdate > label{
     display: block;
@@ -128,7 +126,15 @@ body{
 .formulary__boxrest > input,select{
     display: block;
 }
-
+.formulary__button > button{
+    border: none;
+    background-color: #FF731D;
+    color:#f6f7f6;
+    font-size: 800;
+    padding: 11px;
+    width: 200px;
+    border-radius: 15px;
+}
 
 
 
