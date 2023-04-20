@@ -82,23 +82,30 @@ body{
     padding:6px;
 }
 .formulary__boxdestination{
+    min-width: 320px;
     height: 100px;
     border-radius: 10px;
 }
 .formulary__boxdate{
+    width: 20%;
     height: 100px;
     text-align: center;
     padding: 4px;
     border-radius: 10px;
 }
 .formulary__boxrest{
+    width: 20%;
     height: 100px;
     text-align: center;
     border-radius: 10px;
     padding: 8px;
 }
 .formulary__button{
+    width: 70%;
+    text-align: center;
+    background-color: transparent;
     border-radius: 15px; 
+    
 }
 
 .formulary__boxcheck > label{
@@ -183,11 +190,45 @@ body{
     border-radius: 15px;
 }
 
-/*CORTE PARA PANTALLA DE CELULAR*/
-@media (max-width: 500px) {
- 
-}
 /*CORTE PARA PANTALLA DE TABLET*/
 @media (max-width: 1024px) {
+
+    .formulary__boxcheck{
+        width: 80%;
+    }
+
+    .formulary__boxdestination{
+        width: 80%;
+    }
+    .formulary__boxdate{
+        min-width: 125px;
+        width: 40%;
+    }
+    .formulary__boxrest{
+        width: 40%;
+    }
+}
+
+/*CORTE PARA PANTALLA DE CELULAR*/
+@media (max-width: 600px) {
+    .formulary{
+        width: 100%;
+    }
+    
+    .formulary__boxcheck{
+        width: 80%;
+    }
+
+    .formulary__boxdestination{
+        width: 70%;
+    }
+    .formulary__boxdate{
+        min-width: 125px;
+        width: 80%;
+    }
+    .formulary__boxrest{
+        width: 80%;
+    }
+    
  
 }
