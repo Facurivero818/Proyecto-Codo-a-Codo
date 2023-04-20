@@ -3,12 +3,13 @@
 #5F9DF7 => CELESTE
 #FFF7E9 => BEIGE
 #FF731D => NARANJA
+#f6f7f6 => BLANCO
 */
 
 *{
     margin: 0;
     box-sizing: border-box;
-    padding-left: 0;
+    padding: 0;
 }
 body{
     position: relative;
@@ -71,7 +72,7 @@ body{
 }
 
 .formulary__box{
-    background-color: #f6f7f6;
+    background-color: #FFF7E9;
     margin: 10px;
 }
 .formulary__boxcheck{
@@ -80,7 +81,7 @@ body{
     border-radius: 10px;
     padding:6px;
 }
-.formulary__boxdestiny{
+.formulary__boxdestination{
     height: 100px;
     border-radius: 10px;
 }
@@ -92,8 +93,8 @@ body{
 }
 .formulary__boxrest{
     height: 100px;
-    border-radius: 10px;
     text-align: center;
+    border-radius: 10px;
     padding: 8px;
 }
 .formulary__button{
@@ -117,7 +118,7 @@ body{
 
 
 }
-.formulary__boxdestiny__box> input{
+.formulary__boxdestination__box> input{
     border:none;
     width: 250px;
     padding: 10px;
@@ -127,23 +128,51 @@ body{
     outline-color: #FF731D;
 }
 
-.formulary__boxdestiny__box> i{
+.formulary__boxdestination__box> i{
     margin-left: 6px;
 }
-.formulary__boxdate > label{
+.formulary__boxdate__hide{
+    margin-top: 12px;
+}
+
+.formulary__boxdate > div > label{
     display: block;
     text-align: center;  
 }
-.formulary__boxdate > input{
+.formulary__boxdate > div > input{
     display: block;
     margin-bottom: 5px;
     border-radius: 5px;
     border: none;
     outline-color:#FF731D;
 }
-.formulary__boxrest > input,select{
-    display: block;
+.formulary__boxrest__div{
+    margin-right: 0;
+    text-align: center;
 }
+
+.formulary__boxrest__div> label{
+    display: block;
+    width: 100%;
+}
+
+.formulary__boxrest__div> select{
+    border: none;
+    padding:3px;
+    border-radius: 6px;
+    outline-color: #FF731D;
+}
+
+
+.formulary__boxrest > input{
+    width: 60%;
+    padding: 4px;
+    margin-top: 10px;
+    border-radius:8px;
+    border:none;
+    outline-color:#FF731D;
+}
+
 .formulary__button > button{
     border: none;
     background-color: #FF731D;

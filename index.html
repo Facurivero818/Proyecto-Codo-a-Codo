@@ -28,34 +28,42 @@
                         <label><input class="formulary__boxcheck__button" type="radio" name="tipe fly" value="ida"> ida y vuelta</label>
                     </div>
 
-                    <div class="formulary__box formulary__boxdestiny">
-                        <div class=" formulary__boxdestiny__box">
+                    <div class="formulary__box formulary__boxdestination">
+                        <div class=" formulary__boxdestination__box">
                             <i class="fa-solid fa-map-location-dot fa-lg" style="color: #1746A2;"></i>
                             <input type="text" placeholder="Me escapo de">
                         </div>
-                        <div class=" formulary__boxdestiny__box">
+                        <div class=" formulary__boxdestination__box">
                             <i class="fa-solid fa-plane-arrival fa-lg" style="color: #1746A2;"></i>
                             <input type="text" placeholder="Voy a ">
                         </div>
                     </div>
 
                     <div class="formulary__box formulary__boxdate">
-                        <label for="salida">Salida</label>
-                        <input id="salida" type="date">
-                        <label for="regreso" >Regreso</label>
-                        <input id="regreso" type="date">
+                        <div>
+                            <label for="salida">Salida</label>
+                            <input id="salida" type="date">
+                        </div>
+                        
+                        <div class="formulary__boxdate__hide">
+                            <label for="regreso" >Regreso</label>
+                            <input id="regreso" type="date">
+                        </div>
+                        
                     </div>
 
                    <div class="formulary__box formulary__boxrest">
-                        <label>Clase
-                            <select name="Clase" >
-                                <option value="Todas">Todas</option>
-                                <option value="Todas">Económica</option>
-                                <option value="Todas">Premium</option>
-                                <option value="Todas">Business</option>
-                                <option value="Todas">Primera</option>
+                        <div class="formulary__boxrest__div">
+                            <label for="selectclass">Clase</label> 
+                            <select id="selectclass" name="Clase" >
+                                    <option value="Todas">Todas</option>
+                                    <option value="Todas">Económica</option>
+                                    <option value="Todas">Premium</option>
+                                    <option value="Todas">Business</option>
+                                    <option value="Todas">Primera</option>
                             </select>
-                        </label>
+                        </div>
+                        
                         <input type="number" placeholder="Personas">
                     </div>
 
