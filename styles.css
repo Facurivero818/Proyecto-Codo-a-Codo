@@ -48,6 +48,12 @@ body{
     width: 50px;
 }
 /*ESTILO BASICO DE LAS SECCIONES*/
+#fly{
+    background-image: url("caribe3.jpg");
+    background-size: cover;
+    height: 100%;
+
+}
 .sections{
     display: flex;
     width: 100%;
@@ -202,7 +208,7 @@ body{
     }
     .formulary__boxdate{
         min-width: 125px;
-        width: 40%;
+        width: 37%;
     }
     .formulary__boxrest{
         width: 40%;
