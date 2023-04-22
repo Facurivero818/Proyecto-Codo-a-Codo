@@ -38,7 +38,9 @@ body{
     color: #f6f7f6;
     font-weight: 500;
 }
-
+.item__box:hover{
+    color:#5F9DF7;
+}
 .item__box > span{
     display: block;
     padding-top: 10px;
