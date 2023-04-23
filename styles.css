@@ -90,7 +90,6 @@ body{
     padding:6px;
 }
 .formulary__boxdestination{
-    min-width: 320px;
     height: 100px;
     border-radius: 10px;
 }
@@ -135,7 +134,7 @@ body{
 }
 .formulary__boxdestination__box> input{
     border:none;
-    width: 250px;
+    width: 200px;
     padding: 10px;
     margin: 6px;
     accent-color:#9A9BC0;
@@ -212,7 +211,7 @@ body{
         width: 37%;
     }
     .formulary__boxrest{
-        width: 40%;
+        width: 37%;
     }
 }
 
@@ -223,18 +222,22 @@ body{
     }
     
     .formulary__boxcheck{
-        width: 80%;
+        width: 90%;
     }
 
     .formulary__boxdestination{
+        width: 90%;
+    }
+
+    .formulary__boxdestination__box> input{
         width: 70%;
     }
     .formulary__boxdate{
         min-width: 125px;
-        width: 80%;
+        width: 90%;
     }
     .formulary__boxrest{
-        width: 80%;
+        width: 90%;
     }
     
  
