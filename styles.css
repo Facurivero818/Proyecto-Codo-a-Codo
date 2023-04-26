@@ -191,7 +191,12 @@ body{
 
 
 /* Andrea  */
+#contacto{
+    background-image: url("nubes.jpg");
+    background-size: cover;
+    height: 100%;
 
+}
 .contenedorContacto{
     display:grid;
     grid-template-columns: 70%;
@@ -216,7 +221,7 @@ body{
 }
 .contenido{
     grid-area: contenido;
-    background: linear-gradient(to left,#5F9DF7,#1746A2);
+    /* background: linear-gradient(to left,#5F9DF7,#1746A2); */
 }
 .footer{
     grid-area: footer;  
