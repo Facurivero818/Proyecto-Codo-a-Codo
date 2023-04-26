@@ -272,7 +272,9 @@ body{
     border-radius: 10px;
     outline-color: #FF731D;
 }
-
+.pIcon{
+    text-align: center;
+}
 .item1 {
     /* start on row 1 column 2, 
     and span 1 rows and 3 columns */
@@ -290,7 +292,7 @@ body{
     grid-area: 4 / 2 / span 2 / span3; 
 }
 .item5 {
-    grid-area: 1 / 1 / span 3; 
+    grid-area: 1 / 1 / span 4; 
 }
 
 
