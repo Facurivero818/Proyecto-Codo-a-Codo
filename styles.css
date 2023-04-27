@@ -211,7 +211,7 @@ body{
     width: 80vw;
     min-height: 80px;
     max-width: 880px; 
-    padding: 25px;
+    padding: 10px;
     border-radius: 15px;
     justify-content: center; 
 }
@@ -236,18 +236,21 @@ body{
     border-radius: 10px;
     padding:6px;
     display:grid;
+    grid-template-areas: "imagen nombre"
+                         "imagen email" 
+                         "imagen mensaje"
+                         "imagen boton";
+    grid-gap: 4px;
 }
 .formulary__contact__item{
     background-color: #FFF7E9;
     margin: 10px;
     border-radius: 15px;
-    width:max-content;
     min-height: 80px;
     max-width: 880px; 
     padding: 25px;
     border-radius: 15px;
     justify-content: space-evenly;
-    width:auto
 }
 
 .formulary__contact__item > input{
@@ -275,24 +278,21 @@ body{
 .pIcon{
     text-align: center;
 }
-.item1 {
-    /* start on row 1 column 2, 
-    and span 1 rows and 3 columns */
-    grid-area: 1 / 2 / span 1 / span 3;
+.nombre {
+    grid-area: nombre;
 } 
-.item2 {
-    grid-area: 2 / 2 / span 1 / span 3;
+.email {
+    grid-area: email;
 }
 
-.item3 {
-    grid-area: 3 / 2 / span 1 / span 3;
+.mensaje {
+    grid-area: mensaje;
 }
-
-.item4 {
-    grid-area: 4 / 2 / span 2 / span3; 
+.boton {
+    grid-area: boton; 
 }
-.item5 {
-    grid-area: 1 / 1 / span 4; 
+.imagen {
+    grid-area: imagen;
 }
 
 
@@ -336,7 +336,7 @@ body{
     .formulary__boxrest{
         width: 80%;
     }
-    .item5{
+    .imagen{
         display:none;
     }
  
