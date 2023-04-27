@@ -195,7 +195,6 @@ body{
     background-image: url("nubes.png");
     background-size: cover;
     height: 100%;
-
 }
 .contenedorContacto{
     display:grid;
@@ -229,34 +228,31 @@ body{
     justify-content: space-evenly;
 }
 
-.formulary__contact{
-    /* min-width: 320px; */
+.formulary__contact{   
     text-align: justify;
     border-radius: 10px;
-    /* padding:6px; */
     display:grid;
     grid-template-columns: 35% 55%;
     grid-template-areas: "imagen nombre"
                          "imagen email" 
                          "imagen mensaje"
                          "imagen boton";
-    /* grid-gap: 4px; */
 }
 .formulary__contact__item{
     background-color: #FFF7E9;
     margin: 10px;
     border-radius: 15px;
-    min-height: 80px;
-    max-width: 880px; 
+    min-width: 250px;
+    width: 100%;
     padding: 25px;
     border-radius: 15px;
-    justify-content: space-evenly;
 }
 
 .formulary__contact__item > input{
     border:none;    
     padding: 10px;
     margin: 6px;
+    width: 100%;
     accent-color:#9A9BC0;
     border-radius: 10px;
     outline-color: #FF731D;
@@ -268,9 +264,9 @@ body{
 
 .formulary__contact__item > textarea{
     border:none;
-    width:max-content;
     padding: 10px;
     margin: 6px;
+    width: 100%;
     accent-color:#9A9BC0;
     border-radius: 10px;
     outline-color: #FF731D;
@@ -293,8 +289,26 @@ body{
 }
 .imagen {
     grid-area: imagen;
+    width: 100%;
 }
 
+/*CORTE PARA PANTALLA menores de 800px */
+@media (max-width: 800px) {
+    .formulary__contact{
+        text-align: justify;
+        border-radius: 10px;
+        display:grid;
+        grid-template-columns: 75%;
+        grid-template-areas: "nombre"
+                             "email" 
+                             "mensaje"
+                             "boton";
+    }
+    .imagen{
+        display: none;
+    }
+}
+/* Fin Andrea */
 
 
 /*CORTE PARA PANTALLA DE TABLET*/
@@ -337,7 +351,17 @@ body{
         width: 80%;
     }
     .imagen{
-        display:none;
+        display: none;
+    }
+    .formulary__contact{
+        text-align: justify;
+        border-radius: 10px;
+        display:grid;
+        grid-template-columns: 75%;
+        grid-template-areas: "nombre"
+                             "email" 
+                             "mensaje"
+                             "boton";
     }
  
 }
