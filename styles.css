@@ -115,6 +115,16 @@ body{
     
 }
 
+.formulary__button > button{
+    border: none;
+    background-color: #FF731D;
+    color:#f6f7f6;
+    font-size: 800;
+    padding: 11px;
+    width: 200px;
+    border-radius: 15px;
+}
+
 .formulary__boxcheck > label{
     margin: 0 20px 0 20px;
 }
@@ -186,15 +196,127 @@ body{
     outline-color:#FF731D;
 }
 
-.formulary__button > button{
-    border: none;
-    background-color: #FF731D;
-    color:#f6f7f6;
-    font-size: 800;
-    padding: 11px;
-    width: 200px;
+
+/* Andrea  */
+#contacto{
+    background-image: url("nubes.png");
+    background-size: cover;
+    height: 100%;
+}
+.contenedorContacto{
+    display:grid;
+    grid-template-columns: 70%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "contenedorHeader"
+                         "contenedorContenido" 
+                         "contenedorFooter";
+}
+
+.itemContacto{
+    width: 80vw;
+    min-height: 80px;
+    max-width: 880px; 
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: center; 
+}
+
+.contenedorHeader{
+    grid-area: contenedorHeader;
+}
+.contenedorContenido{
+    grid-area: contenedorContenido;
+    /* background: linear-gradient(to left,#5F9DF7,#1746A2); */
+}
+.contenedorFooter{
+    grid-area: contenedorFooter;  
+    display:flex;
+    flex-wrap: wrap;    
+    justify-content: space-evenly;
+}
+
+.formulary__contact{   
+    text-align: justify;
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: 35% 55%;
+    grid-template-areas: "imagen nombre"
+                         "imagen email" 
+                         "imagen mensaje"
+                         "imagen boton";
+}
+.formulary__contact__item{
+    background-color: #FFF7E9;
+    margin: 10px;
+    border-radius: 15px;
+    min-width: 250px;
+    width: 100%;
+    padding: 25px;
     border-radius: 15px;
 }
+
+.formulary__contact__item > input{
+    border:none;    
+    padding: 10px;
+    margin: 6px;
+    width: 100%;
+    accent-color:#9A9BC0;
+    border-radius: 10px;
+    outline-color: #FF731D;
+}
+
+.formulary__contact__item> i{
+    margin-left: 6px;
+}
+
+.formulary__contact__item > textarea{
+    border:none;
+    padding: 10px;
+    margin: 6px;
+    width: 100%;
+    accent-color:#9A9BC0;
+    border-radius: 10px;
+    outline-color: #FF731D;
+}
+.pIcon{
+    text-align: center;
+}
+.nombre {
+    grid-area: nombre;
+} 
+.email {
+    grid-area: email;
+}
+
+.mensaje {
+    grid-area: mensaje;
+}
+.boton {
+    grid-area: boton; 
+}
+.imagen {
+    grid-area: imagen;
+    width: 100%;
+}
+
+/*CORTE PARA PANTALLA menores de 800px */
+@media (max-width: 800px) {
+    .formulary__contact{
+        text-align: justify;
+        border-radius: 10px;
+        display:grid;
+        grid-template-columns: 75%;
+        grid-template-areas: "nombre"
+                             "email" 
+                             "mensaje"
+                             "boton";
+    }
+    .imagen{
+        display: none;
+    }
+}
+/* Fin Andrea */
+
 
 /*CORTE PARA PANTALLA DE TABLET*/
 @media (max-width: 1024px) {
@@ -239,6 +361,18 @@ body{
     .formulary__boxrest{
         width: 90%;
     }
-    
+    .imagen{
+        display: none;
+    }
+    .formulary__contact{
+        text-align: justify;
+        border-radius: 10px;
+        display:grid;
+        grid-template-columns: 75%;
+        grid-template-areas: "nombre"
+                             "email" 
+                             "mensaje"
+                             "boton";
+    }
  
 }
