@@ -49,9 +49,10 @@ body{
 .item__box > i{
     width: 50px;
 }
+
 /*ESTILO BASICO DE LAS SECCIONES*/
 #fly{
-    background-image: url("caribe3.jpg");
+    background-image: url("assets/caribe3.jpg");
     background-size: cover;
     height: 100%;
 
@@ -64,6 +65,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
+
 /*ESTILO FORMULARIO*/
 .formulary{
     display: flex;
@@ -194,6 +196,75 @@ body{
     padding: 11px;
     width: 200px;
     border-radius: 15px;
+}
+
+
+/*ESTILO SECCION OPINIONES*/
+#opinions{
+    background-color: #FFF7E9 ;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.containerComments{
+    display:flex;
+    animation: slide 25s infinite linear;
+    align-items: center;
+}
+
+.containerComments__box{
+    background-color: white;
+    overflow: hidden;
+    flex-basis: 30vh;
+    min-width: 280px;
+    box-shadow: 0 3px 30px rgba(0,0,0,0.3);
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+
+.cardHeader{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+}
+
+.cardHeader div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 6px;
+    color: #FF731D;
+    font-weight: 1000;
+}
+
+.cardHeader img{
+    height: 50px;
+    width: 50px;
+}
+
+.cardBody{
+    overflow: hidden;
+    height: 50%;
+    padding: 10px;
+}
+
+.cardBody img{
+    width:18px;
+    margin-bottom: 5px;
+}
+
+@keyframes slide{
+
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-150%);
+    }
 }
 
 /*CORTE PARA PANTALLA DE TABLET*/
