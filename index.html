@@ -1,78 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <li class="item"><a href="#fly"><div class="item__box"><i class="fa-solid fa-plane-departure fa-lg"></i> <span>Vuelos</span></div></a></li>
-                <li class="item"><a href="#destiny"><div class="item__box"><i class="fa-solid fa-earth-americas fa-lg"></i> <span>Destinos</span></div></a></li>
-                <li class="item"><a href="#tips"><div class="item__box"><i class="fa-solid fa-magnifying-glass-location fa-lg"></i> <span>Tips viajeros</span></div></a></li>
-                <li class="item"><a href="#opinions"><div class="item__box"><i class="fa-solid fa-comments fa-lg"></i> <span>Opiniones</span></div></a></li>
-                <li class="item"><a href=""><div class="item__box"><i class="fa-solid fa-envelope-open-text fa-lg"></i> <span>Contactenos</span></div></a></li>
+                <li class="item"><a href="#fly">
+                        <div class="item__box"><i class="fa-solid fa-plane-departure fa-lg"></i> <span>Vuelos</span>
+                        </div>
+                    </a></li>
+                <li class="item"><a href="#destiny">
+                        <div class="item__box"><i class="fa-solid fa-earth-americas fa-lg"></i> <span>Destinos</span>
+                        </div>
+                    </a></li>
+                <li class="item"><a href="#tips">
+                        <div class="item__box"><i class="fa-solid fa-magnifying-glass-location fa-lg"></i> <span>Tips
+                                viajeros</span></div>
+                    </a></li>
+                <li class="item"><a href="#opinions">
+                        <div class="item__box"><i class="fa-solid fa-comments fa-lg"></i> <span>Opiniones</span></div>
+                    </a></li>
+                <li class="item"><a href="">
+                        <div class="item__box"><i class="fa-solid fa-envelope-open-text fa-lg"></i>
+                            <span>Contactenos</span>
+                        </div>
+                    </a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="fly" class="sections">
-                <form class="formulary" action="">
+            <form class="formulary" action="">
 
-                    <div class="formulary__box formulary__boxcheck">
-                        <label><input class="formulary__boxcheck__button formulary__boxcheck__ida" type="radio" name="tipe fly" checked value="ida"> ida</label>
-                        <label><input class="formulary__boxcheck__button formulary__boxcheck__idaYVuelta" type="radio" name="tipe fly" value="ida"> ida y vuelta</label>
+                <div class="formulary__box formulary__boxcheck">
+                    <label><input class="formulary__boxcheck__button formulary__boxcheck__ida" type="radio"
+                            name="tipe fly" checked value="ida"> ida</label>
+                    <label><input class="formulary__boxcheck__button formulary__boxcheck__idaYVuelta" type="radio"
+                            name="tipe fly" value="ida"> ida y vuelta</label>
+                </div>
+
+                <div class="formulary__box formulary__boxdestination">
+                    <div class=" formulary__boxdestination__box">
+                        <i class="fa-solid fa-map-location-dot fa-lg" style="color: #1746A2;"></i>
+                        <input type="text" placeholder="Me escapo de">
+                    </div>
+                    <div class=" formulary__boxdestination__box">
+                        <i class="fa-solid fa-plane-arrival fa-lg" style="color: #1746A2;"></i>
+                        <input type="text" placeholder="Voy a ">
+                    </div>
+                </div>
+
+                <div class="formulary__box formulary__boxdate">
+                    <div>
+                        <label for="salida">Salida</label>
+                        <input id="salida" type="date">
                     </div>
 
-                    <div class="formulary__box formulary__boxdestination">
-                        <div class=" formulary__boxdestination__box">
-                            <i class="fa-solid fa-map-location-dot fa-lg" style="color: #1746A2;"></i>
-                            <input type="text" placeholder="Me escapo de">
-                        </div>
-                        <div class=" formulary__boxdestination__box">
-                            <i class="fa-solid fa-plane-arrival fa-lg" style="color: #1746A2;"></i>
-                            <input type="text" placeholder="Voy a ">
-                        </div>
+                    <div class="formulary__boxdate__hide">
+                        <label for="regreso">Regreso</label>
+                        <input id="regreso" type="date">
                     </div>
 
-                    <div class="formulary__box formulary__boxdate">
-                        <div>
-                            <label for="salida">Salida</label>
-                            <input id="salida" type="date">
-                        </div>
-                        
-                        <div class="formulary__boxdate__hide">
-                            <label for="regreso" >Regreso</label>
-                            <input id="regreso" type="date">
-                        </div>
-                        
+                </div>
+
+                <div class="formulary__box formulary__boxrest">
+                    <div class="formulary__boxrest__div">
+                        <label for="selectclass">Clase</label>
+                        <select id="selectclass" name="Clase">
+                            <option value="Todas">Todas</option>
+                            <option value="Todas">Económica</option>
+                            <option value="Todas">Premium</option>
+                            <option value="Todas">Business</option>
+                            <option value="Todas">Primera</option>
+                        </select>
                     </div>
 
-                   <div class="formulary__box formulary__boxrest">
-                        <div class="formulary__boxrest__div">
-                            <label for="selectclass">Clase</label> 
-                            <select id="selectclass" name="Clase" >
-                                    <option value="Todas">Todas</option>
-                                    <option value="Todas">Económica</option>
-                                    <option value="Todas">Premium</option>
-                                    <option value="Todas">Business</option>
-                                    <option value="Todas">Primera</option>
-                            </select>
-                        </div>
-                        
-                        <input type="number" placeholder="Personas"  min="1" max="5">
-                    </div>
+                    <input type="number" placeholder="Personas" min="1" max="5">
+                </div>
 
-                <div class="formulary__box formulary__button"><button>BUSCAR</button></div>  
+                <div class="formulary__box formulary__button"><button>BUSCAR</button></div>
             </form>
         </section>
 
         <section id="destiny" class="sections"></section>
-        <section id="tips" class="sections"></section>
+        <section id="tips" class="sections">
+            <div class="title">
+                <h1>Desde Anser Indicus te dejamos recomendaciones a tener en cuenta para poder disfrutar tu viaje</h1>
+            </div>
+            <div class="container-box">
+                <div class="box">
+                    <img src="information.png" alt="">
+                    <h2>Informacion util</h2>
+                    <div class="container-p">
+                        <p>Asesorate acerca del clima, accesibilidad, seguridad y medios de transporte del lugar que
+                            visitas.
+                            Tené siempre a mano los números de emergencia.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="passport.png" alt="">
+                    <h2>Documentación</h2>
+                    <div class="container-p">
+                        <p>Verifica con el Consulado o Embajada correspondiente de contar con toda la documentación
+                            necesaria y los requisitos adicionales de tu destino.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="insurance.png" alt="">
+                    <h2>Asistencia médica</h2>
+                    <div class="container-p">
+                        <p> Es importante contar con un seguro de asistencia
+                            integral al viajero para tener respaldo en caso de sufrir una emergencia en el exterior.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="excursion.png" alt="">
+                    <h2>Planificá</h2>
+                    <div class="container-p">
+                        <p> Buscá recomendaciones de lugares en base a tu presupuesto. 
+                            Descargá mapas offline de las locaciones que quieras visitar en caso de tener problemas de conexión. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="opinions" class="sections"></section>
 
     </main>
@@ -84,4 +148,5 @@
     <script src="https://kit.fontawesome.com/d3e33a01ab.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
