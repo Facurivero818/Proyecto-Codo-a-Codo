@@ -300,6 +300,25 @@ body{
     width: 100%;
 }
 
+.contenedor_btn_wsp{
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 25px;
+    right: 25px;
+    padding:25px;
+    transition:ease 0.3s;
+   }
+.contenedor_btn_wsp:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.btn-wsp{
+    width:50px;
+    transition: ease 1s;
+}
+
+
 /*CORTE PARA PANTALLA menores de 800px */
 @media (max-width: 800px) {
     .formulary__contact__contendor{
@@ -316,7 +335,7 @@ body{
         display: none;
     }
 }
-/* Fin Andrea */
+/* Fin Contacto */
 
 
 /*CORTE PARA PANTALLA DE TABLET*/
