@@ -310,7 +310,7 @@ body{
     transition:ease 0.3s;
    }
 .contenedor_btn_wsp:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
     transition: 0.3s;
 }
 .btn-wsp{
