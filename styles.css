@@ -197,7 +197,7 @@ body{
 }
 
 
-/* Andrea  */
+/* Contacto */
 #contacto{
     background-image: url("nubes.png");
     background-size: cover;
@@ -207,9 +207,9 @@ body{
     display:grid;
     grid-template-columns: 70%;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "contenedorHeader"
-                         "contenedorContenido" 
-                         "contenedorFooter";
+    grid-template-areas: "itemContactoHeader"
+                         "itemContactoContenido" 
+                         "itemContactoFooter";
 }
 
 .itemContacto{
@@ -221,29 +221,29 @@ body{
     justify-content: center; 
 }
 
-.contenedorHeader{
-    grid-area: contenedorHeader;
+.itemContactoHeader{
+    grid-area: itemContactoHeader;
 }
-.contenedorContenido{
-    grid-area: contenedorContenido;
-    /* background: linear-gradient(to left,#5F9DF7,#1746A2); */
+.itemContactoContenido{
+    grid-area: itemContactoContenido;
 }
-.contenedorFooter{
-    grid-area: contenedorFooter;  
+
+.itemContactoFooter{
+    grid-area: itemContactoFooter;  
     display:flex;
     flex-wrap: wrap;    
     justify-content: space-evenly;
 }
 
-.formulary__contact{   
+.formulary__contact__contendor{   
     text-align: justify;
     border-radius: 10px;
     display:grid;
     grid-template-columns: 35% 55%;
-    grid-template-areas: "imagen nombre"
-                         "imagen email" 
-                         "imagen mensaje"
-                         "imagen boton";
+    grid-template-areas: "itemImagen itemNombre"
+                         "itemImagen itemEmail" 
+                         "itemImagen itemMensaje"
+                         "itemImagen itemBoton";
 }
 .formulary__contact__item{
     background-color: #FFF7E9;
@@ -281,37 +281,38 @@ body{
 .pIcon{
     text-align: center;
 }
-.nombre {
-    grid-area: nombre;
+.itemNombre {
+    grid-area: itemNombre;
 } 
-.email {
-    grid-area: email;
+.itemEmail {
+    grid-area: itemEmail;
 }
 
-.mensaje {
-    grid-area: mensaje;
+.itemMensaje {
+    grid-area:itemMensaje;
 }
-.boton {
-    grid-area: boton; 
+.itemBoton {
+    grid-area: itemBoton; 
 }
-.imagen {
-    grid-area: imagen;
+.itemImagen {
+    grid-area: itemImagen;
+    background-color: none;
     width: 100%;
 }
 
 /*CORTE PARA PANTALLA menores de 800px */
 @media (max-width: 800px) {
-    .formulary__contact{
+    .formulary__contact__contendor{
         text-align: justify;
         border-radius: 10px;
         display:grid;
         grid-template-columns: 75%;
-        grid-template-areas: "nombre"
-                             "email" 
-                             "mensaje"
-                             "boton";
+        grid-template-areas: "itemNombre"
+                             "itemEmail" 
+                             "itemMensaje"
+                             "itemBoton";
     }
-    .imagen{
+    .itemImagen{
         display: none;
     }
 }
@@ -361,18 +362,18 @@ body{
     .formulary__boxrest{
         width: 90%;
     }
-    .imagen{
+    .itemImagen{
         display: none;
     }
-    .formulary__contact{
+    .formulary__contact__contendor{
         text-align: justify;
         border-radius: 10px;
         display:grid;
         grid-template-columns: 75%;
-        grid-template-areas: "nombre"
-                             "email" 
-                             "mensaje"
-                             "boton";
+        grid-template-areas: "itemNombre"
+                             "itemEmail" 
+                             "itemMensaje"
+                             "itemBoton";
     }
  
 }
