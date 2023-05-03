@@ -197,7 +197,7 @@ body{
 
 /*ESTILO SECCIÓN DESTINOS*/
 
-/*MADRID*/
+/*EDIMBURGO*/
 .destination1{
     display: inline-block;
     padding: 20px;
@@ -239,6 +239,7 @@ body{
 .contenedor-acceso-vuelos1{
     display: flex;
     align-items: center;
+    margin: -1px 0px 0px 0px;
 }
 
 .avion-destinos1{
@@ -283,91 +284,90 @@ body{
     background: #5F9DF7
 }
 
-/*EDIMBURGO*/
+/*MADRID*/
 .destination2{
-    display: inline-block;
-    padding: 20px;
-    margin: 22px 8px 8px 8px;
-    background-color: #FFF7E9;
-    width: 350px;
-    height: 465px; 
-    align-items: center;
-    border-radius:10px;
+  display: inline-block;
+  padding: 20px;
+  margin: 22px 8px 8px 8px;
+  background-color: #FFF7E9;
+  width: 350px;
+  height: 465px; 
+  align-items: center;
+  border-radius:10px;
 }
 
 .img-destinos2{
-    width: 300px;
-    height: 165px;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    border-radius: 20px;
-    margin: 10px auto;
-    display: block;
-}
-
-.nombre-destino2{
-  border: none;
-  border-radius: 100px;
-  padding: 5px 30px;
-  color:#FFF7E9;
-  background: linear-gradient(to left,#5F9DF7,#1746A2);
-  margin: 0 auto;
+  width: 300px;
+  height: 165px;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  border-radius: 20px;
+  margin: 10px auto;
   display: block;
 }
 
+.nombre-destino2{
+border: none;
+border-radius: 100px;
+padding: 5px 30px;
+color:#FFF7E9;
+background: linear-gradient(to left,#5F9DF7,#1746A2);
+margin: 0 auto;
+display: block;
+}
+
 .descripcion-destino2{ 
-  margin:12px 0px 15px 0px;
-  text-align: center;
-  font-size: 15px;
+margin:12px 0px 15px 0px;
+text-align: center;
+font-size: 15px;
 }
 
 .contenedor-acceso-vuelos2{
-    display: flex;
-    align-items: center;
-    margin: -1px 0px 0px 0px;
+  display: flex;
+  align-items: center;
 }
 
 .avion-destinos2{
-  animation-name: flash;
-  animation-duration: 5s;
-  animation-delay: 0.5s;
-  animation-iteration-count: infinite;
-  margin: 0px 0px 0px 35px;
+animation-name: flash;
+animation-duration: 5s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+margin: 0px 0px 0px 35px;
 }
 
 @keyframes flash {
-    from, 50%, to {
-      opacity: 1;
-    }
-    25%, 75% {
-      opacity: 0;
-    }
+  from, 50%, to {
+    opacity: 1;
   }
+  25%, 75% {
+    opacity: 0;
+  }
+}
 
 .acceso-vuelos2{ 
-    color: #FF731D;
-    text-decoration: none;
-    margin-left: 5px;
+  color: #FF731D;
+  text-decoration: none;
+  margin-left: 5px;
 }
 
 .acceso-vuelos2:hover { 
-   color:#d88b5bfc;
+ color:#d88b5bfc;
 }
 
 .boton-info2{ 
-    margin: 15px auto;
-    align-items: center;
-    display: block;
-    border: none;
-    border-radius: 100px;
-    padding: 9px 30px;
-    color:#FFF7E9;
-    background: linear-gradient(to left,#5F9DF7,#1746A2);
+  margin: 15px auto;
+  align-items: center;
+  display: block;
+  border: none;
+  border-radius: 100px;
+  padding: 9px 30px;
+  color:#FFF7E9;
+  background: linear-gradient(to left,#5F9DF7,#1746A2);
 }
 
 .boton-info2:hover { 
-    background: #5F9DF7
+  background: #5F9DF7
 }
 
 
