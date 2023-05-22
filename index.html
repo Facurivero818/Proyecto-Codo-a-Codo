@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="menu">
@@ -15,151 +17,68 @@
                 <li class="item"><a href="#destiny"><div class="item__box"><i class="fa-solid fa-earth-americas fa-lg"></i> <span>Destinos</span></div></a></li>
                 <li class="item"><a href="#tips"><div class="item__box"><i class="fa-solid fa-magnifying-glass-location fa-lg"></i> <span>Tips viajeros</span></div></a></li>
                 <li class="item"><a href="#opinions"><div class="item__box"><i class="fa-solid fa-comments fa-lg"></i> <span>Opiniones</span></div></a></li>
-                <li class="item"><a href="#contacto"><div class="item__box"><i class="fa-solid fa-envelope-open-text fa-lg"></i> <span>Contactenos</span></div></a></li>
+                <li class="item"><a href=""><div class="item__box"><i class="fa-solid fa-envelope-open-text fa-lg"></i> <span>Contactenos</span></div></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="fly" class="sections">
-                <form class="formulary" action="">
+            <form class="formulary" action="">
 
-                    <div class="formulary__box formulary__boxcheck">
-                        <label><input class="formulary__boxcheck__button formulary__boxcheck__ida" type="radio" name="tipe fly" checked value="ida"> ida</label>
-                        <label><input class="formulary__boxcheck__button formulary__boxcheck__idaYVuelta" type="radio" name="tipe fly" value="ida"> ida y vuelta</label>
+                <div class="formulary__box formulary__boxcheck">
+                    <label><input class="formulary__boxcheck__button formulary__boxcheck__ida" type="radio"
+                            name="tipe fly" checked value="ida"> ida</label>
+                    <label><input class="formulary__boxcheck__button formulary__boxcheck__idaYVuelta" type="radio"
+                            name="tipe fly" value="ida"> ida y vuelta</label>
+                </div>
+
+                <div class="formulary__box formulary__boxdestination">
+                    <div class=" formulary__boxdestination__box">
+                        <i class="fa-solid fa-map-location-dot fa-lg" style="color: #1746A2;"></i>
+                        <input type="text" placeholder="Me escapo de">
+                    </div>
+                    <div class=" formulary__boxdestination__box">
+                        <i class="fa-solid fa-plane-arrival fa-lg" style="color: #1746A2;"></i>
+                        <input type="text" placeholder="Voy a ">
+                    </div>
+                </div>
+
+                <div class="formulary__box formulary__boxdate">
+                    <div>
+                        <label for="salida">Salida</label>
+                        <input id="salida" type="date">
                     </div>
 
-                    <div class="formulary__box formulary__boxdestination">
-                        <div class=" formulary__boxdestination__box">
-                            <i class="fa-solid fa-map-location-dot fa-lg" style="color: #1746A2;"></i>
-                            <input type="text" placeholder="Me escapo de">
-                        </div>
-                        <div class=" formulary__boxdestination__box">
-                            <i class="fa-solid fa-plane-arrival fa-lg" style="color: #1746A2;"></i>
-                            <input type="text" placeholder="Voy a ">
-                        </div>
+                    <div class="formulary__boxdate__hide">
+                        <label for="regreso">Regreso</label>
+                        <input id="regreso" type="date">
                     </div>
 
-                    <div class="formulary__box formulary__boxdate">
-                        <div>
-                            <label for="salida">Salida</label>
-                            <input id="salida" type="date">
-                        </div>
-                        
-                        <div class="formulary__boxdate__hide">
-                            <label for="regreso" >Regreso</label>
-                            <input id="regreso" type="date">
-                        </div>
-                        
+                </div>
+
+                <div class="formulary__box formulary__boxrest">
+                    <div class="formulary__boxrest__div">
+                        <label for="selectclass">Clase</label>
+                        <select id="selectclass" name="Clase">
+                            <option value="Todas">Todas</option>
+                            <option value="Todas">Económica</option>
+                            <option value="Todas">Premium</option>
+                            <option value="Todas">Business</option>
+                            <option value="Todas">Primera</option>
+                        </select>
                     </div>
 
-                   <div class="formulary__box formulary__boxrest">
-                        <div class="formulary__boxrest__div">
-                            <label for="selectclass">Clase</label> 
-                            <select id="selectclass" name="Clase" >
-                                    <option value="Todas">Todas</option>
-                                    <option value="Todas">Económica</option>
-                                    <option value="Todas">Premium</option>
-                                    <option value="Todas">Business</option>
-                                    <option value="Todas">Primera</option>
-                            </select>
-                        </div>
-                        
-                        <input type="number" placeholder="Personas"  min="1" max="5">
-                    </div>
+                    <input type="number" placeholder="Personas" min="1" max="5">
+                </div>
 
-                <div class="formulary__box formulary__button"><button>BUSCAR</button></div>  
+                <div class="formulary__box formulary__button"><button>BUSCAR</button></div>
             </form>
         </section>
 
-        <section id="destiny" class="sections"></section>
+        <section id="destination" class="sections"></section>
         <section id="tips" class="sections"></section>
         <section id="opinions" class="sections"></section>
-        <section id="contacto" class="sections">
-            <section class="contenedorContacto">
-                <div class="itemContacto itemContactoHeader">
-                    <h5>
-                        <p>Por cualquier duda o consulta por favor escribinos desde el siguiente formulario de contacto o
-                            comunicate con nosotros por cualquiera de los otros medios.
-                         Te responderemos a la brevedad.</p>
-                        <p>¡Muchas gracias!</p>
-                    </h5>
-                </div>
-                <div class="itemContacto itemContactoContenido">
-                    <form class="formulary__contact__contendor" action="">
-        
-                        <div class="formulary__contact__item itemNombre">
-                            <i class="fa-solid fa-user fa-lg" style="color: #FF731D;"></i>
-                            <input type="text" id="nombre" placeholder="mi nombre es">
-                        </div>
-        
-                        <div class="formulary__contact__item itemEmail">
-                            <i class="fa-solid  fa-envelope fa-lg" style="color: #FF731D;"></i>
-                            <input type="email" name="email" id="email" placeholder="email">
-        
-                        </div>
-        
-                        <div class="formulary__contact__item itemMensaje">
-                            <i class="fa-solid fa-comment fa-lg" style="color: #FF731D;"></i>
-                            <textarea name="mensaje" id="mensaje" cols="" rows="3" placeholder="mensaje"></textarea>
-                        </div>
-                        <div class="formulary__button itemImagen">
-                            <img src="mochilerafeliz.png" alt="mujer mochilera feliz">
-                        </div>
-                        <div class="formulary__button itemBoton">
-                            <button>ENVIAR</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="itemContacto itemContactoFooter">
-                    <div class="footer-local">
-                        <h4>
-                            <p class="pIcon"><i class="fa-solid fa-location-dot fa-lg" style="color: #FF731D;"></i></p>
-                        </h4>
-                        <h5>
-                            <p>
-                                <br>
-                                XXXXXX Turismo
-                                <br>
-                                SiempreViva 123
-                                <br>
-                                Argentina
-                            </p>
-                        </h5>
-                    </div>
-                    <div class="footer-telefono">
-                        <h4>
-                            <p class="pIcon"><i class="fa-solid  fa-phone fa-lg" style="color: #FF731D;"></i></p>
-                        </h4>
-                        <h5>
-                            <p>
-                                <br>
-                                0800 - 123 - 1234
-                            </p>
-                        </h5>
-                    </div>
-                    <div class="footer-horario">
-                        <h4>
-                            <p class="pIcon"><i class="fa-solid  fa-clock fa-lg" style="color: #FF731D;"></i></p>
-                        </h4>
-                        <h5>
-                            <p>
-                                <br>
-                                Lunes - Viernes : 09:00 - 20.00 hs
-                                <br>
-                                Sabado : 09.00 - 12.30 hs </p>
-                        </h5>
-                    </div>
-                </div>
-            </section>
-        
-          </section>
-         
-        </section>
-        <div class="contenedor_btn_wsp">
-            <a href="https://wa.me/987654321?text=Deseo%20relizar%20un%20viaje" target="_blank">
-                <img class="btn-wsp" src="WhatsApp_icon.png" alt="">
-            </a>
-      </div>
+
     </main>
  
 
@@ -169,4 +88,5 @@
     <script src="https://kit.fontawesome.com/d3e33a01ab.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -49,9 +49,10 @@ body{
 .item__box > i{
     width: 50px;
 }
+
 /*ESTILO BASICO DE LAS SECCIONES*/
 #fly{
-    background-image: url("caribe3.jpg");
+    background-image: url("assets/caribe3.jpg");
     background-size: cover;
     height: 100%;
 
@@ -64,6 +65,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
+
 /*ESTILO FORMULARIO*/
 .formulary{
     display: flex;
@@ -254,89 +256,6 @@ body{
     padding: 25px;
     border-radius: 15px;
 }
-
-.formulary__contact__item > input{
-    border:none;    
-    padding: 10px;
-    margin: 6px;
-    width: 100%;
-    accent-color:#9A9BC0;
-    border-radius: 10px;
-    outline-color: #FF731D;
-}
-
-.formulary__contact__item> i{
-    margin-left: 6px;
-}
-
-.formulary__contact__item > textarea{
-    border:none;
-    padding: 10px;
-    margin: 6px;
-    width: 100%;
-    accent-color:#9A9BC0;
-    border-radius: 10px;
-    outline-color: #FF731D;
-}
-.pIcon{
-    text-align: center;
-}
-.itemNombre {
-    grid-area: itemNombre;
-} 
-.itemEmail {
-    grid-area: itemEmail;
-}
-
-.itemMensaje {
-    grid-area:itemMensaje;
-}
-.itemBoton {
-    grid-area: itemBoton; 
-}
-.itemImagen {
-    grid-area: itemImagen;
-    background-color: none;
-    width: 100%;
-}
-
-.contenedor_btn_wsp{
-    position: fixed;
-    z-index: 999;
-    border-radius: 50%;
-    bottom: 25px;
-    right: 25px;
-    padding:25px;
-    transition:ease 0.3s;
-   }
-.contenedor_btn_wsp:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-.btn-wsp{
-    width:50px;
-    transition: ease 1s;
-}
-
-
-/*CORTE PARA PANTALLA menores de 800px */
-@media (max-width: 800px) {
-    .formulary__contact__contendor{
-        text-align: justify;
-        border-radius: 10px;
-        display:grid;
-        grid-template-columns: 75%;
-        grid-template-areas: "itemNombre"
-                             "itemEmail" 
-                             "itemMensaje"
-                             "itemBoton";
-    }
-    .itemImagen{
-        display: none;
-    }
-}
-/* Fin Contacto */
-
 
 /*CORTE PARA PANTALLA DE TABLET*/
 @media (max-width: 1024px) {
