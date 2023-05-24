@@ -1,0 +1,384 @@
+/*COLORES:
+#1746A2 => AZUL
+#5F9DF7 => CELESTE
+#FFF7E9 => BEIGE
+#FF731D => NARANJA
+#f6f7f6 => BLANCO
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    position: relative;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+/*ESTILOS MENU*/
+.menu{
+    position:fixed;
+    width: 100%;
+    text-align: center;
+    /* background: linear-gradient(to right,white,#1746A2); */
+    background-color: #1746A2;
+    border-radius: 0  0 15px 15px;
+    z-index: 1;
+}
+#Container__logo{
+    display: flex;
+    padding:8px 0 2px 10px;
+    margin-right: auto;
+    text-align:start;
+
+}
+
+#Container__logo #logo{
+    border-radius: 50%;
+    height: 45px;
+    align-items: center;
+    
+}
+#Container__logo #titulo{
+    display: inline-block;
+    color: #FF731D;
+    font-size: 1.5rem;
+    font-size: 1000;
+    align-self: center;
+    margin-left: 8px;
+    /* margin-top: 7px; */
+
+}
+ul {
+    display: inline-block;
+    text-align: center;
+}
+
+.item{
+    display: inline-block;
+}
+
+.item > a{
+    text-decoration: none;
+}
+
+.item__box{
+    padding: 4px 14px;
+    color: #f6f7f6;
+    font-weight: 500;
+}
+.item__box:hover{
+    color:#5F9DF7;
+}
+.item__box > span{
+    font-size: 14px;
+    display: block;
+    padding-top: 4px;
+}
+
+/*ESTILO BASICO DE LAS SECCIONES*/
+#fly{
+    background-image: url("assets/caribe3.jpg");
+    background-size: cover;
+    height: 100%;
+
+}
+.sections{
+    display: flex;
+    width: 100%;
+    min-height: 550px;
+    border: 3px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*ESTILO FORMULARIO*/
+.formulary{
+    display: flex;
+    width: 70vw;
+    min-height: 250px;
+    max-width: 880px;
+    padding: 40px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    background: linear-gradient(to left,#5F9DF7,#1746A2);
+    border-radius: 15px;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.formulary__box{
+    background-color: #FFF7E9;
+    margin: 10px;
+}
+.formulary__boxcheck{
+    text-align: center;
+    width:70%;
+    border-radius: 10px;
+    padding:6px;
+}
+.formulary__boxdestination{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 250px;
+    height: 110px;
+    border-radius: 10px;
+}
+.formulary__boxdate{
+    width: 20%;
+    height: 110px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+}
+.formulary__boxrest{
+    width: 20%;
+    height: 110px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px;
+}
+.formulary__button{
+    width: 70%;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 15px; 
+    
+}
+
+.formulary__boxcheck > label{
+    margin: 0 20px 0 20px;
+}
+.formulary__boxcheck__button{
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid #FF731D;
+
+}
+.formulary__boxcheck__button:checked{
+    background-color: #FF731D;
+    box-shadow:inset 0px 0px 0 2px #f6f7f6;
+
+
+}
+.formulary__boxdestination__box> input{
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    padding: 10px;
+    margin: 6px;
+    accent-color:#9A9BC0;
+    border-radius: 10px;
+    outline-color: #FF731D;
+}
+
+.formulary__boxdestination__box> i{
+    margin-left: 6px;
+}
+
+.formulary__boxdate__hide{
+    margin-top: 4px;
+}
+
+.formulary__boxdate > div > label{
+    display: block;
+    font-size: 0.8rem;
+    text-align: center;  
+}
+.formulary__boxdate > div > input{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: none;
+    outline-color:#FF731D;
+}
+.formulary__boxrest__div{
+    margin-right: 0;
+    text-align: center;
+}
+
+.formulary__boxrest__div> label{
+    display: block;
+    width: 100%;
+}
+
+.formulary__boxrest__div> select{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding:3px;
+    border-radius: 6px;
+    outline-color: #FF731D;
+}
+
+
+.formulary__boxrest > input{
+    font-family: 'Poppins', sans-serif;
+    width: 103px;
+    padding: 4px;
+    margin-top: 10px;
+    border-radius:8px;
+    border:none;
+    outline-color:#FF731D;
+}
+
+.formulary__button > button{
+    border: none;
+    background-color: #FF731D;
+    color:#f6f7f6;
+    font-size: 800;
+    padding: 11px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+
+/*ESTILO SECCION OPINIONES*/
+#opinions{
+    background-color: #FFF7E9 ;
+    align-items: center;
+    overflow: hidden;
+
+}
+#opinions h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.containerComments{
+    display:flex;
+    animation: slide 25s infinite linear;
+    align-items: center;
+    width: 3760px;
+
+}
+
+.containerComments__box{
+    background-color: white;
+    overflow: hidden;
+    flex-basis: 450px;
+    height: 250px;
+    box-shadow: 0 3px 30px rgba(0,0,0,0.3);
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+
+.cardHeader{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+}
+
+.cardHeader div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 6px;
+    color: #FF731D;
+    font-weight: 1000;
+}
+
+.cardHeader img{
+    height: 50px;
+    width: 50px;
+}
+
+.cardBody{
+    overflow: hidden;
+    height: 50%;
+    padding: 10px;
+}
+
+.cardBody img{
+    width:18px;
+    margin-bottom: 5px;
+}
+
+@keyframes slide{
+
+    0%{
+        transform: translateX(20%);
+    }
+    100%{
+        transform: translateX(-150%);
+    }
+}
+
+/*CORTE PARA PANTALLA DE TABLET*/
+@media (max-width: 1024px) {
+
+    .formulary__boxcheck{
+        width: 80%;
+    }
+
+    .formulary__boxdestination{
+        width: 80%;
+    }
+    .formulary__boxdate{
+        min-width: 125px;
+        width: 37%;
+    }
+    .formulary__boxdate > div > input{
+        width:60%;
+        min-width: 115px;
+    }
+    .formulary__boxrest{
+        width: 37%;
+    }
+    @keyframes slide{
+
+        0%{
+            transform: translateX(30%);
+        }
+        100%{
+            transform: translateX(-170%);
+        }
+    }
+}
+
+/*CORTE PARA PANTALLA DE CELULAR*/
+@media (max-width: 600px) {
+    .formulary{
+        width: 100%;
+    }
+    
+    .formulary__boxcheck{
+        width: 90%;
+    }
+
+    .formulary__boxdestination{
+        width: 90%;
+    }
+
+    .formulary__boxdestination__box> input{
+        width: 70%;
+    }
+    .formulary__boxdate{
+        min-width: 125px;
+        width: 90%;
+    }
+    .formulary__boxrest{
+        width: 90%;
+    }
+    
+    .containerComments__box{
+        flex-basis: 300px;
+    }
+    @keyframes slide{
+        0%{
+            transform: translateX(40%);
+        }
+        100%{
+            transform: translateX(-120%);
+        }
+    }
+ 
+}
