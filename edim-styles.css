@@ -74,8 +74,15 @@ body{
     grid-area: content;
     padding: 20px;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 20px; 
+    font-family: 'Poppins';
+    font-size: 13px;
 }
+
+h1{
+    font-family: 'Prompt';
+}
+
 
 /*ESTILOS SIDEBAR*/
 
@@ -95,8 +102,8 @@ body{
   object-fit: cover;
   object-position: center;
   border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 35px;
 }
 
 .calton-hill{
@@ -105,7 +112,7 @@ body{
   object-fit: cover;
   object-position: center;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 
 .hombre{
@@ -114,7 +121,7 @@ body{
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
   }
   .ciudad{
     width: 100%;
@@ -122,7 +129,7 @@ body{
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
 /*ESTILOS WIDGETS*/
@@ -137,6 +144,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Poppins'
     }
 
 

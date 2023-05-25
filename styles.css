@@ -245,14 +245,19 @@ ul {
 
 /*ESTILO SECCIÓN DESTINOS*/
 
+#destination{
+    background-color:#f0ceb8;
+}
+ 
+
 /*EDIMBURGO*/
 .destination1{
     display: inline-block;
     padding: 20px;
-    margin: 22px 8px 8px 8px;
+    margin: 60px 8px 8px 8px;
     background-color: #FFF7E9;
     width: 350px;
-    height: 465px; 
+    height: 500px; 
     align-items: center;
     border-radius:10px;
 }
@@ -276,18 +281,19 @@ ul {
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
+  font-family: 'Prompt';
 }
 
 .descripcion-destino1{ 
   margin:12px 0px 15px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .contenedor-acceso-vuelos1{
     display: flex;
     align-items: center;
-    margin: -1px 0px 0px 0px;
+    margin: -1px 0px 0px -11px
 }
 
 .avion-destinos1{
@@ -311,6 +317,8 @@ ul {
     color: #FF731D;
     text-decoration: none;
     margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .acceso-vuelos1:hover { 
@@ -326,6 +334,8 @@ ul {
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
+    font-family: 'Prompt';
+    font-size: 12px;
 }
 
 .boton-info1:hover { 
@@ -336,10 +346,10 @@ ul {
 .destination2{
   display: inline-block;
   padding: 20px;
-  margin: 22px 8px 8px 8px;
+  margin: 60px 8px 8px 8px;
   background-color: #FFF7E9;
   width: 350px;
-  height: 465px; 
+  height: 500px; 
   align-items: center;
   border-radius:10px;
 }
@@ -363,17 +373,19 @@ color:#FFF7E9;
 background: linear-gradient(to left,#5F9DF7,#1746A2);
 margin: 0 auto;
 display: block;
+font-family: 'Prompt';
 }
 
 .descripcion-destino2{ 
-margin:12px 0px 15px 0px;
+margin: 12px 0px 35px 0px;
 text-align: center;
-font-size: 15px;
+font-size: 13px;
 }
 
 .contenedor-acceso-vuelos2{
   display: flex;
   align-items: center;
+  margin: -1px 0px 0px -11px
 }
 
 .avion-destinos2{
@@ -397,6 +409,8 @@ margin: 0px 0px 0px 35px;
   color: #FF731D;
   text-decoration: none;
   margin-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .acceso-vuelos2:hover { 
@@ -412,6 +426,8 @@ margin: 0px 0px 0px 35px;
   padding: 9px 30px;
   color:#FFF7E9;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
+  font-family: 'Prompt';
+  font-size: 12px;
 }
 
 .boton-info2:hover { 
@@ -423,10 +439,10 @@ margin: 0px 0px 0px 35px;
 .destination3{
     display: inline-block;
     padding: 20px;
-    margin: 22px 8px 8px 8px;
+    margin: 60px 8px 8px 8px;
     background-color: #FFF7E9;
     width: 350px;
-    height: 465px; 
+    height: 500px; 
     align-items: center;
     border-radius:10px;
 }
@@ -450,17 +466,19 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
+  font-family: 'Prompt';
 }
 
 .descripcion-destino3{ 
   margin:12px 0px 15px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .contenedor-acceso-vuelos3{
     display: flex;
     align-items: center;
+    margin: -1px 0px 0px -11px
 }
 
 .avion-destinos3{
@@ -484,6 +502,8 @@ margin: 0px 0px 0px 35px;
     color: #FF731D;
     text-decoration: none;
     margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .acceso-vuelos3:hover { 
@@ -499,6 +519,8 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
+    font-family: 'Prompt';
+    font-size: 12px;
 }
 
 .boton-info3:hover { 
@@ -509,10 +531,10 @@ margin: 0px 0px 0px 35px;
 .destination4{
     display: inline-block;
     padding: 20px;
-    margin: 22px 8px 8px 8px;
+    margin: 60px 8px 8px 8px;
     background-color: #FFF7E9;
     width: 350px;
-    height: 465px; 
+    height: 500px; 
     align-items: center;
     border-radius:10px;
 }
@@ -536,17 +558,19 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
+  font-family: 'Prompt';
 }
 
 .descripcion-destino4{ 
-  margin:12px 0px 15px 0px;
+  margin:12px 0px 16px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .contenedor-acceso-vuelos4{
     display: flex;
     align-items: center;
+    margin: -1px 0px 0px -11px
 }
 
 .avion-destinos4{
@@ -570,6 +594,8 @@ margin: 0px 0px 0px 35px;
     color: #FF731D;
     text-decoration: none;
     margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .acceso-vuelos4:hover { 
@@ -585,6 +611,8 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
+    font-family: 'Prompt';
+    font-size: 12px;
 }
 
 .boton-info4:hover { 
@@ -596,10 +624,10 @@ margin: 0px 0px 0px 35px;
 .destination5{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 22px 8px;
+    margin: 8px 8px 60px 8px;
     background-color: #FFF7E9;
     width: 350px;
-    height: 465px; 
+    height: 500px; 
     align-items: center;
     border-radius:10px;
 }
@@ -623,17 +651,19 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
+  font-family: 'Prompt';
 }
 
 .descripcion-destino5{ 
-  margin:12px 0px 15px 0px;
+  margin:12px 0px 16px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .contenedor-acceso-vuelos5{
     display: flex;
     align-items: center;
+    margin: -1px 0px 0px -11px
 }
 
 .avion-destinos5{
@@ -657,6 +687,8 @@ margin: 0px 0px 0px 35px;
     color: #FF731D;
     text-decoration: none;
     margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .acceso-vuelos5:hover { 
@@ -672,6 +704,8 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
+    font-family: 'Prompt';
+    font-size: 12px;
 }
 
 .boton-info5:hover { 
@@ -682,10 +716,10 @@ margin: 0px 0px 0px 35px;
 .destination6{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 22px 8px;
+    margin: 8px 8px 60px 8px;
     background-color: #FFF7E9;
     width: 350px;
-    height: 465px; 
+    height: 500px; 
     align-items: center;
     border-radius:10px;
 }
@@ -709,18 +743,19 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
+  font-family: 'Prompt';
 }
 
 .descripcion-destino6{ 
-  margin:12px 0px 15px 0px;
+  margin:12px 0px 16px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .contenedor-acceso-vuelos6{
     display: flex;
     align-items: center;
-    margin: -18px 0px 0px 0px
+    margin: -1px 0px 0px -11px
 }
 
 .avion-destinos6{
@@ -744,6 +779,8 @@ margin: 0px 0px 0px 35px;
     color: #FF731D;
     text-decoration: none;
     margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .acceso-vuelos6:hover { 
@@ -759,6 +796,8 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
+    font-family: 'Prompt';
+    font-size: 12px;
 }
 
 .boton-info6:hover { 
@@ -770,10 +809,10 @@ margin: 0px 0px 0px 35px;
 .destination7{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 22px 8px;
+    margin: 8px 8px 60px 8px;
     background-color: #FFF7E9;
     width: 350px;
-    height: 465px; 
+    height: 500px; 
     align-items: center;
     border-radius:10px;
 }
@@ -797,18 +836,19 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
+  font-family: 'Prompt';
 }
 
 .descripcion-destino7{ 
-  margin:12px 0px 15px 0px;
+  margin:12px 0px 16px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .contenedor-acceso-vuelos7{
     display: flex;
     align-items: center;
-    margin: 33px 0px 0px 0px;
+    margin: -1px 0px 0px -11px
 }
 
 .avion-destinos7{
@@ -832,6 +872,8 @@ margin: 0px 0px 0px 35px;
     color: #FF731D;
     text-decoration: none;
     margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .acceso-vuelos7:hover { 
@@ -847,6 +889,8 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
+    font-family: 'Prompt';
+    font-size: 12px;
 }
 
 .boton-info7:hover { 
@@ -857,10 +901,10 @@ margin: 0px 0px 0px 35px;
 .destination8{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 22px 8px;
+    margin: 8px 8px 60px 8px;
     background-color: #FFF7E9;
     width: 350px;
-    height: 465px; 
+    height: 500px; 
     align-items: center;
     border-radius:10px;
 }
@@ -884,18 +928,19 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
+  font-family: 'Prompt';
 }
 
 .descripcion-destino8{ 
-  margin:12px 0px 15px 0px;
+  margin:12px 0px 17px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .contenedor-acceso-vuelos8{
     display: flex;
     align-items: center;
-    margin: 16px 0px 0px 0px;
+    margin: -1px 0px 0px -11px
 }
 
 .avion-destinos8{
@@ -919,6 +964,8 @@ margin: 0px 0px 0px 35px;
     color: #FF731D;
     text-decoration: none;
     margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .acceso-vuelos8:hover { 
@@ -934,6 +981,8 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
+    font-family: 'Prompt';
+    font-size: 12px;
 }
 
 .boton-info8:hover { 
