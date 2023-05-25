@@ -88,7 +88,6 @@ ul {
     display: flex;
     width: 100%;
     min-height: 550px;
-    border: 3px solid black;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -169,10 +168,15 @@ ul {
     box-shadow:inset 0px 0px 0 2px #f6f7f6;
 }
 
+.formulary__boxdestination__box{
+    text-align: center;
+    width: 100%;
+}
+
 .formulary__boxdestination__box> input{
     border:none;
     font-family: 'Poppins', sans-serif;
-    width: 200px;
+    width: 80%;
     padding: 10px;
     margin: 6px;
     accent-color:#9A9BC0;
@@ -246,7 +250,7 @@ ul {
 /*ESTILO SECCIÓN DESTINOS*/
 
 #destination{
-    background-color:#f0ceb8;
+    background-color:#FFF7E9;
 }
  
 
@@ -531,7 +535,7 @@ margin: 0px 0px 0px 35px;
 .destination4{
     display: inline-block;
     padding: 20px;
-    margin: 60px 8px 8px 8px;
+    margin: 8px 8px 60px 8px;
     background-color: #FFF7E9;
     width: 350px;
     height: 500px; 
@@ -1152,7 +1156,8 @@ margin: 0px 0px 0px 35px;
 #contacto {
     background-image: url("assets/nubes.png");
     background-size: cover;
-    height: 100%;
+    padding: 70px;
+    /* height: 100%; */
 }
 
 .contenedorContacto {
