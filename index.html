@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/Favicon.ico" type="image/x-icon">
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,18 +19,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Anser Indicus</title>
 </head>
+
 
 <body>
     <header>
         <nav class="menu">
+            <div id="Container__logo">
+            <img id="logo" src="assets/logo.png" alt="logo" srcset="">
+            <p id="titulo">ANSER INDICUS</p>
+            </div>
             <ul>
                 <li class="item"><a href="#fly">
                         <div class="item__box"><i class="fa-solid fa-plane-departure fa-lg"></i> <span>Vuelos</span>
                         </div>
                     </a></li>
-                <li class="item"><a href="#destiny">
+                <li class="item"><a href="#destination">
                         <div class="item__box"><i class="fa-solid fa-earth-americas fa-lg"></i> <span>Destinos</span>
                         </div>
                     </a></li>
@@ -36,8 +48,7 @@
                     </a></li>
                 <li class="item"><a href="">
                         <div class="item__box"><i class="fa-solid fa-envelope-open-text fa-lg"></i>
-                            <span>Contactenos</span>
-                        </div>
+                            <span>Contactenos</span></div>
                     </a></li>
             </ul>
         </nav>
@@ -96,7 +107,130 @@
             </form>
         </section>
 
-        <section id="destiny" class="sections"></section>
+
+        <!--SECCIÓN DESTINOS-->
+        <!--SOLO EL PRIMER DESTINO TIENEN ACCESO A LA PÁGINA DE INFORMACIÓN-->
+        <section id="destination" class="sections">
+
+            <div class="destination1">
+                <img src="resources/img/edimburgo/edimburgo (3).jpg" alt="Foto Edimburgo" class="img-destinos1">
+                <button class="nombre-destino1">EDIMBURGO</button>
+                <p class="descripcion-destino1">Edimburgo es la capital de Escocia y ha sido seleccionada como
+                    la mejor ciudad de Reino Unido en varias ocasiones. Su belleza y su historia no tienen parangón,
+                    es fácil enamorarse de Edimburgo porque tiene algo que engancha y que logra
+                    hacerse un hueco en el corazón de los que la visitan.</p>
+                <div class="contenedor-acceso-vuelos1">
+                    <img src="resources/img/plane.png" alt="Avión" class="avion-destinos1">
+                    <p><a class="acceso-vuelos1" href="#fly">Busca tus vuelos de ida y vuelta</a></p>
+                </div>
+                <button class="boton-info1" onclick="window.location.href='edimburgo.html'">Más info de tus destinos en
+                    nuestra Web</button>
+            </div>
+            
+            <div class="destination2">
+                <img src="resources/img/Madrid/madrid (3).jpg" alt="Foto Madrid" class="img-destinos2">
+                <button class="nombre-destino2">MADRID</button>
+                <p class="descripcion-destino2">Madrid es la capital de España y su amplia oferta turística
+                    la convierten en una de las ciudades más visitadas de Europa. Además debido a la
+                    extraordinaria belleza de sus calles y plazas, es considerada una de las ciudades
+                    más bonitas de España.</p>
+                <div class="contenedor-acceso-vuelos2">
+                    <img src="resources/img/plane.png" alt="Avión" class="avion-destinos1">
+                    <p><a class="acceso-vuelos2" href="#fly">Busca tus vuelos de ida y vuelta</a></p>
+                </div>
+                <button class="boton-info2">Más info de tus destinos en nuestra Web</button>
+            </div>
+
+            <div class="destination3">
+                <img src="resources/img/mikonos/mikonos (3).jpg" alt="Foto Mikonos" class="img-destinos3">
+                <button class="nombre-destino3">MYKONOS</button>
+                <p class="descripcion-destino3">Mykonos es una de las islas más famosas y hermosas del mar Egeo,
+                    ubicada en el archipiélago de las Islas Cícladas. Esta isla de Grecia es conocida por su vibrante
+                    vida nocturna, hermosos paisajes y la gran cantidad de turistas de todo el mundo que la visitan.</p>
+                <div class="contenedor-acceso-vuelos3">
+                    <img src="resources/img/plane.png" alt="Avión" class="avion-destinos3">
+                    <p><a class="acceso-vuelos3" href="#fly">Busca tus vuelos de ida y vuelta</a></p>
+                </div>
+                <button class="boton-info3">Más info de tus destinos en nuestra Web</button>
+            </div>
+
+            <div class="destination4">
+                <img src="resources/img/roma/roma (2).jpg" alt="Foto Roma" class="img-destinos4">
+                <button class="nombre-destino4">ROMA</button>
+                <p class="descripcion-destino4">Roma es con toda seguridad una de las ciudades más bonitas de Europa.
+                    Además
+                    es la ciudad con la más alta concentración de bienes históricos y arquitectónicos del planeta; su
+                    centro
+                    histórico es la mayor expresión del patrimonio histórico, artístico y cultural del mundo occidental
+                    europeo.</p>
+                <div class="contenedor-acceso-vuelos4">
+                    <img src="resources/img/plane.png" alt="Avión" class="avion-destinos4">
+                    <p><a class="acceso-vuelos4" href="#fly">Busca tus vuelos de ida y vuelta</a></p>
+                </div>
+                <button class="boton-info4">Más info de tus destinos en nuestra Web</button>
+            </div>
+
+            <div class="destination5">
+                <img src="resources/img/Paris/paris (4).jpg" alt="Foto Paris" class="img-destinos5">
+                <button class="nombre-destino5">PARIS</button>
+                <p class="descripcion-destino4">La ciudad del amor es uno de esos destinos soñados por casi todo el
+                    mundo.
+                    Una ciudad repleta de magia que hace que cuando nos preguntemos por qué visitar París la respuesta
+                    sea obvia,
+                    porque visitar París es maravilloso, uno de los lugares más mágicos del mundo. </p>
+                <div class="contenedor-acceso-vuelos5">
+                    <img src="resources/img/plane.png" alt="Avión" class="avion-destinos5">
+                    <p><a class="acceso-vuelos5" href="#fly">Busca tus vuelos de ida y vuelta</a></p>
+                </div>
+                <button class="boton-info5">Más info de tus destinos en nuestra Web</button>
+            </div>
+
+            <div class="destination6">
+                <img src="resources/img/bruselas/bruselas (5).jpg" alt="Foto Bruselas" class="img-destinos6">
+                <button class="nombre-destino6">BRUCELAS</button>
+                <p class="descripcion-destino6">Bruselas es la capital de Bélgica y la ciudad que mejor define el país.
+                    La encontrarás repleta de tabernas de estilo art decó, obras de arte flamencas verdaderamente
+                    únicas,
+                    espectaculares catedrales góticas y coquetas casas gremiales. </p>
+                <div class="contenedor-acceso-vuelos6">
+                    <img src="resources/img/plane.png" alt="Avión" class="avion-destinos6">
+                    <p><a class="acceso-vuelos6" href="#fly">Busca tus vuelos de ida y vuelta</a></p>
+                </div>
+                <button class="boton-info6">Más info de tus destinos en nuestra Web</button>
+            </div>
+
+            <div class="destination7">
+                <img src="resources/img/amsterdam/Amsterdam (1).jpg" alt="Foto Amsterdam" class="img-destinos7">
+                <button class="nombre-destino7">AMSTERDAM</button>
+                <p class="descripcion-destino7">Amsterdam es la capital de los Países Bajos, conocida por su patrimonio
+                    artístico,
+                    su elaborado sistema de canales y sus casas angostas con fachadas de dos aguas, herencias de la Edad
+                    de Oro de
+                    la ciudad durante el siglo XVII. </p>
+                <div class="contenedor-acceso-vuelos7">
+                    <img src="resources/img/plane.png" alt="Avión" class="avion-destinos7">
+                    <p><a class="acceso-vuelos7" href="#fly">Busca tus vuelos de ida y vuelta</a></p>
+                </div>
+                <button class="boton-info7">Más info de tus destinos en nuestra Web</button>
+            </div>
+
+            <div class="destination8">
+                <img src="resources/img/Lisboa/Lisboa (1).jpg" alt="Foto Lisboa" class="img-destinos8">
+                <button class="nombre-destino8">LISBOA</button>
+                <p class="descripcion-destino7">Ven a conocer Lisboa, la ciudad histórica con muchas historias que
+                    contar.
+                    Donde el sol brilla hasta 290 días al año y la temperatura raramente baja por debajo de los 15ºC.
+                    Donde
+                    uno se siente seguro paseando durante el día y saliendo de noche.</p>
+                <div class="contenedor-acceso-vuelos8">
+                    <img src="resources/img/plane.png" alt="Avión" class="avion-destinos8">
+                    <p><a class="acceso-vuelos8" href="#fly">Busca tus vuelos de ida y vuelta</a></p>
+                </div>
+                <button class="boton-info8">Más info de tus destinos en nuestra Web</button>
+            </div>
+        </section>
+
+
         <section id="tips" class="sections">
             <div class="title">
                 <h1>Desde Anser Indicus te dejamos recomendaciones a tener en cuenta para poder disfrutar tu viaje</h1>
@@ -137,7 +271,171 @@
                 </div>
             </div>
         </section>
-        <section id="opinions" class="sections"></section>
+
+
+        <section id="opinions" class="sections">
+            <h2>Opiniones de nuestros usuarios</h2>
+            <div class="containerComments">
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card1.png" alt="logoGoogle">
+                        <div>
+                            <p>Tito El Bambino</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                        </div>
+                        <p>Ya son dos viajes los que mi novia y yo hemos hecho con Anser Indicus, nos tocó Nápoles y
+                            Oporto y la verdad que no
+                            nos podemos quejar de nada! Los hoteles estaban genial con el desayuno incluido y bastante
+                            céntricos. Es muy cómodo </p>
+                    </div>
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card2.png" alt="logoGoogle">
+                        <div>
+                            <p>Mariana Castillos</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrellaGris.png" alt="">
+                        </div>
+                        <p>Tuve un problema externo con la aerolínea y el personal de la agencia me acompañó en todo momento, inclusive a altas horas de la madrugada, no se que hubiera hecho sino. El resto del viaje fue hermoso, volví muy contenta. </p>
+                    </div>
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card3.png" alt="logoGoogle">
+                        <div>
+                            <p>Leo Gomez</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrellaGris.png" alt="">
+                        </div>
+                        <p>Honestamente tenía mucho miedo de viajar sólo con mis hijos, pero la agencia tuvo en cuenta todas nuestras necesidades, disfrutamos muchísimo de nuestras vacaciones familiares!<p>
+                    </div> 
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card4.png" alt="logoGoogle">
+                        <div>
+                            <p>Tolhium Torres</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                        </div>
+                        <p>Nuestra experiencia fue increíble, nos trataron de maravilla. Les recomendamos que si tienen la oportunidad viajen con Anser Indicus, no se van a arrepentir.</p>
+                    </div> 
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card5.png" alt="logoGoogle">
+                        <div>
+                            <p>Nico Villalba</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                        </div>
+                        <p>Viajamos con mi pareja, él quería visitar el pueblo de sus abuelos que queda en Lisboa y Anser nos organizó un viaje personalizado con todos los traslados hasta ese lugar específico. Fue emocionante poder realizar este viaje, estamos muy agradecidos!</p>
+                    </div> 
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card6.png" alt="logoGoogle">
+                        <div>
+                            <p>Maria Carrizo</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrellaGris.png" alt="">
+                        </div>
+                        <p>No tenemos más que palabras de agradecimiento, tuvimos 15 días de vacaciones y disfrutamos todos y cada uno gracias a la agencia, todo estaba super organizado. </p>
+                    </div> 
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card7.png" alt="logoGoogle">
+                        <div>
+                            <p>Gabriel Barco</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                        </div>
+                        <p>Con mi pareja somos de hacer otro tipo de viajes, no tan organizados quizá, pero quisimos probar la experiencia porque nos la habían recomendado y nos encantó. Sólo tuvimos que pagar y disfrutar, del resto se encargó la agencia!</p>
+                    </div> 
+                </div>
+                
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card8.png" alt="logoGoogle">
+                        <div>
+                            <p>Xiang Chung</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrellaGris.png" alt="">
+                        </div>
+                        <p> 
+                            Es la segunda vez que viajamos con ellos, esta vez nuestro destino fue Roma, quedamos encantados con la comida. Ya estamos pensando destinos para nuestro tercer viaje!
+                            </p>
+                    </div> 
+                </div>
+            </div>
+
+        </section>
 
     </main>
 
