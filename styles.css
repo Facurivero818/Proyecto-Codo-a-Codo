@@ -448,6 +448,21 @@ ul {
 .item-footer{
     padding:20px;
 }
+.contenedorPrimerItem-footer {
+    display:grid;
+    grid-template-columns: 35% 55%;
+    grid-template-areas: "itemFooterlogo itemFooterRedes"
+                         "itemFooterEmpresa itemFooterEmpresa";
+}
+.itemFooterlogo {
+    grid-area: itemFooterlogo;
+}
+.itemFooterRedes {
+    grid-area: itemFooterRedes;
+}
+.itemFooterEmpresa {
+    grid-area: itemFooterEmpresa;
+}
 
 .redes-container {
     display: flex;
