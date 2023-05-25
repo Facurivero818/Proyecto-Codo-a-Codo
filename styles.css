@@ -367,9 +367,14 @@ ul {
     border-radius: 15px;
     border-color: #FF731D;
     min-width: 250px;
-    width: 100%;
+    width: 90%;
     padding: 25px;
     border-radius: 15px;
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .itemFormularioContacto > input{
@@ -570,6 +575,22 @@ ul {
     .containerComments__box{
         flex-basis: 300px;
     }
+
+    .contendorFormularioContacto {
+        text-align: justify;
+        border-radius: 10px;
+        display:grid;
+        grid-template-columns: 75%;
+        grid-template-areas: "itemNombre"
+                             "itemEmail" 
+                             "itemMensaje"
+                             "itemBoton";
+    }
+
+    .itemImagen{
+        display: none;
+    }
+
     @keyframes slide{
         0%{
             transform: translateX(40%);
