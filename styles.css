@@ -81,7 +81,7 @@ ul {
 #fly{
     background-image: url("assets/caribe3.jpg");
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 
 }
 .sections{
@@ -98,7 +98,7 @@ ul {
     width: 70vw;
     min-height: 250px;
     max-width: 880px;
-    padding: 40px;
+    padding: 20px 40px 5px 40px;
     margin-bottom: 100px;
     margin-top: 150px;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
@@ -115,6 +115,7 @@ ul {
 .formulary__boxcheck{
     text-align: center;
     width:70%;
+    height: 37px;
     border-radius: 10px;
     padding:6px;
 }
@@ -146,6 +147,7 @@ ul {
 
 .formulary__button{
     width: 70%;
+    height: 37px;
     text-align: center;
     background-color: transparent;
     border-radius: 15px; 
@@ -1156,7 +1158,7 @@ margin: 0px 0px 0px 35px;
 #contacto {
     background-image: url("assets/nubes.png");
     background-size: cover;
-    padding: 70px;
+    margin-top: 70px;
     /* height: 100%; */
 }
 
