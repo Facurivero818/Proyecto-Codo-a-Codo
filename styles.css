@@ -370,18 +370,13 @@ ul {
     width: 90%;
     padding: 25px;
     border-radius: 15px;
-    
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    flex-wrap: nowrap;
 }
 
 .itemFormularioContacto > input{
     border:none;    
     padding: 10px;
     margin: 6px;
-    width: 100%;
+    width: 80%;
     accent-color:#9A9BC0;
     border-radius: 10px;
     outline-color: #FF731D;
@@ -395,7 +390,7 @@ ul {
     border:none;
     padding: 10px;
     margin: 6px;
-    width: 100%;
+    width: 80%;
     accent-color:#9A9BC0;
     border-radius: 10px;
     outline-color: #FF731D;
