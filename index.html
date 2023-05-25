@@ -5,19 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/Favicon.ico" type="image/x-icon">
+    
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Anser Indicus</title>
 </head>
 
 <body>
     <header>
         <nav class="menu">
+            <div id="Container__logo">
+            <img id="logo" src="assets/logo.png" alt="logo" srcset="">
+            <p id="titulo">ANSER INDICUS</p>
+            </div>
             <ul>
                 <li class="item"><a href="#fly">
                         <div class="item__box"><i class="fa-solid fa-plane-departure fa-lg"></i> <span>Vuelos</span>
                         </div>
                     </a></li>
-                <li class="item"><a href="#destiny">
+                <li class="item"><a href="#destination">
                         <div class="item__box"><i class="fa-solid fa-earth-americas fa-lg"></i> <span>Destinos</span>
                         </div>
                     </a></li>
@@ -30,8 +40,7 @@
                     </a></li>
                 <li class="item"><a href="">
                         <div class="item__box"><i class="fa-solid fa-envelope-open-text fa-lg"></i>
-                            <span>Contactenos</span>
-                        </div>
+                            <span>Contactenos</span></div>
                     </a></li>
             </ul>
         </nav>
@@ -83,13 +92,14 @@
                         </select>
                     </div>
 
-                    <input type="number" placeholder="Personas">
+                    <input type="number" placeholder="Personas" min="1" max="5">
                 </div>
 
                 <div class="formulary__box formulary__button"><button>BUSCAR</button></div>
             </form>
         </section>
 
+        <section id="destination" class="sections"></section>
         <!--SECCIÓN DESTINOS-->
         <!--SOLO EL PRIMER DESTINO TIENEN ACCESO A LA PÁGINA DE INFORMACIÓN-->
         <section id="destination" class="sections">
@@ -224,7 +234,169 @@
 
 
         <section id="tips" class="sections"></section>
-        <section id="opinions" class="sections"></section>
+        <section id="opinions" class="sections">
+            <h2>Opiniones de nuestros usuarios</h2>
+            <div class="containerComments">
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card1.png" alt="logoGoogle">
+                        <div>
+                            <p>Tito El Bambino</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                        </div>
+                        <p>Ya son dos viajes los que mi novia y yo hemos hecho con Anser Indicus, nos tocó Nápoles y
+                            Oporto y la verdad que no
+                            nos podemos quejar de nada! Los hoteles estaban genial con el desayuno incluido y bastante
+                            céntricos. Es muy cómodo </p>
+                    </div>
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card2.png" alt="logoGoogle">
+                        <div>
+                            <p>Mariana Castillos</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrellaGris.png" alt="">
+                        </div>
+                        <p>Tuve un problema externo con la aerolínea y el personal de la agencia me acompañó en todo momento, inclusive a altas horas de la madrugada, no se que hubiera hecho sino. El resto del viaje fue hermoso, volví muy contenta. </p>
+                    </div>
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card3.png" alt="logoGoogle">
+                        <div>
+                            <p>Leo Gomez</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrellaGris.png" alt="">
+                        </div>
+                        <p>Honestamente tenía mucho miedo de viajar sólo con mis hijos, pero la agencia tuvo en cuenta todas nuestras necesidades, disfrutamos muchísimo de nuestras vacaciones familiares!<p>
+                    </div> 
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card4.png" alt="logoGoogle">
+                        <div>
+                            <p>Tolhium Torres</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                        </div>
+                        <p>Nuestra experiencia fue increíble, nos trataron de maravilla. Les recomendamos que si tienen la oportunidad viajen con Anser Indicus, no se van a arrepentir.</p>
+                    </div> 
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card5.png" alt="logoGoogle">
+                        <div>
+                            <p>Nico Villalba</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                        </div>
+                        <p>Viajamos con mi pareja, él quería visitar el pueblo de sus abuelos que queda en Lisboa y Anser nos organizó un viaje personalizado con todos los traslados hasta ese lugar específico. Fue emocionante poder realizar este viaje, estamos muy agradecidos!</p>
+                    </div> 
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card6.png" alt="logoGoogle">
+                        <div>
+                            <p>Maria Carrizo</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrellaGris.png" alt="">
+                        </div>
+                        <p>No tenemos más que palabras de agradecimiento, tuvimos 15 días de vacaciones y disfrutamos todos y cada uno gracias a la agencia, todo estaba super organizado. </p>
+                    </div> 
+                </div>
+
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card7.png" alt="logoGoogle">
+                        <div>
+                            <p>Gabriel Barco</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                        </div>
+                        <p>Con mi pareja somos de hacer otro tipo de viajes, no tan organizados quizá, pero quisimos probar la experiencia porque nos la habían recomendado y nos encantó. Sólo tuvimos que pagar y disfrutar, del resto se encargó la agencia!</p>
+                    </div> 
+                </div>
+                
+                <div class="containerComments__box">
+                    <div class="cardHeader">
+                        <img src="assets/card8.png" alt="logoGoogle">
+                        <div>
+                            <p>Xiang Chung</p>
+                        </div>
+                    </div>
+                    <div class="cardBody">
+                        <div>
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrella.png" alt="">
+                            <img src="assets/estrellaGris.png" alt="">
+                        </div>
+                        <p> 
+                            Es la segunda vez que viajamos con ellos, esta vez nuestro destino fue Roma, quedamos encantados con la comida. Ya estamos pensando destinos para nuestro tercer viaje!
+                            </p>
+                    </div> 
+                </div>
+            </div>
+
+        </section>
 
     </main>
 
@@ -235,5 +407,6 @@
     <script src="https://kit.fontawesome.com/d3e33a01ab.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 
 </html>
