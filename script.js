@@ -20,11 +20,11 @@ ida.addEventListener("change", () => {
     }
   });
 
-  function validarFormularioContacto() {
+
+
+function validarFormularioContacto() {
     // validacion de nombre
     let nombre = document.getElementById("nombreContacto").value.trim();
-      
-   
 
     // Verificar si el nombre contiene solo caracteres alfabéticos y espacios
     for (var i = 0; i < nombre.length; i++) {
@@ -34,16 +34,10 @@ ida.addEventListener("change", () => {
         return false;
       }
     }
-     // validacion de mail
-    let email = document.getElementById("emailContacto").value.trim();
-    let validEmail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
-  
-    if( ! validEmail.test(email) ){
-      alert('Email invalido, complete un email valido antes de continuar');
-      return false;
-    }
     
     // Si todas las validaciones son exitosas, enviar el formulario
     alert("Formulario enviado correctamente.");
     return true;
   }
+
+
