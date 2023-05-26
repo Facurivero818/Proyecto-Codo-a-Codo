@@ -81,14 +81,13 @@ ul {
 #fly{
     background-image: url("assets/caribe3.jpg");
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 
 }
 .sections{
     display: flex;
     width: 100%;
     min-height: 550px;
-    border: 3px solid black;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -99,7 +98,7 @@ ul {
     width: 70vw;
     min-height: 250px;
     max-width: 880px;
-    padding: 40px;
+    padding: 20px 40px 5px 40px;
     margin-bottom: 100px;
     margin-top: 150px;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
@@ -116,6 +115,7 @@ ul {
 .formulary__boxcheck{
     text-align: center;
     width:70%;
+    height: 37px;
     border-radius: 10px;
     padding:6px;
 }
@@ -147,6 +147,7 @@ ul {
 
 .formulary__button{
     width: 70%;
+    height: 37px;
     text-align: center;
     background-color: transparent;
     border-radius: 15px; 
@@ -169,10 +170,15 @@ ul {
     box-shadow:inset 0px 0px 0 2px #f6f7f6;
 }
 
+.formulary__boxdestination__box{
+    text-align: center;
+    width: 100%;
+}
+
 .formulary__boxdestination__box> input{
     border:none;
     font-family: 'Poppins', sans-serif;
-    width: 200px;
+    width: 80%;
     padding: 10px;
     margin: 6px;
     accent-color:#9A9BC0;
@@ -246,7 +252,7 @@ ul {
 /*ESTILO SECCIÓN DESTINOS*/
 
 #destination{
-    background-color:#f0ceb8;
+    background-color:#FFF7E9;
 }
  
 
@@ -531,7 +537,7 @@ margin: 0px 0px 0px 35px;
 .destination4{
     display: inline-block;
     padding: 20px;
-    margin: 60px 8px 8px 8px;
+    margin: 8px 8px 60px 8px;
     background-color: #FFF7E9;
     width: 350px;
     height: 500px; 
@@ -1152,7 +1158,8 @@ margin: 0px 0px 0px 35px;
 #contacto {
     background-image: url("assets/nubes.png");
     background-size: cover;
-    height: 100%;
+    margin-top: 70px;
+    /* height: 100%; */
 }
 
 .contenedorContacto {
