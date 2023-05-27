@@ -23,8 +23,9 @@ body{
 }
 
 .titulo{
-    font-family: 'Prompt', sans-serif;
-    font-weight: bold;
+    font-family:  'Alkatra', cursive, sans-serif;
+
+    
 }
 
 main{
@@ -196,7 +197,6 @@ ul {
     border:none;
     font-family: 'Poppins', sans-serif;
     width: 70%;
-    /* height: 20px; */
     padding: 5px;
     margin: 6px;
     border-radius: 10px;
@@ -347,6 +347,7 @@ ul {
     margin-left: 5px;
     font-size: 14px;
     font-weight: bold;
+    cursor:pointer;
 }
 
 .acceso-vuelos1:hover { 
@@ -364,6 +365,7 @@ ul {
     background: linear-gradient(to left,#5F9DF7,#1746A2);
     font-family: 'Prompt', sans-serif;
     font-size: 12px;
+    cursor:pointer;
 }
 
 .boton-info1:hover { 
@@ -439,6 +441,7 @@ margin: 0px 0px 0px 35px;
   margin-left: 5px;
   font-size: 14px;
   font-weight: bold;
+  cursor:pointer;
 }
 
 .acceso-vuelos2:hover { 
@@ -532,6 +535,7 @@ margin: 0px 0px 0px 35px;
     margin-left: 5px;
     font-size: 14px;
     font-weight: bold;
+    cursor:pointer;
 }
 
 .acceso-vuelos3:hover { 
@@ -624,6 +628,7 @@ margin: 0px 0px 0px 35px;
     margin-left: 5px;
     font-size: 14px;
     font-weight: bold;
+    cursor:pointer;
 }
 
 .acceso-vuelos4:hover { 
@@ -691,7 +696,7 @@ margin: 0px 0px 0px 35px;
 .contenedor-acceso-vuelos5{
     display: flex;
     align-items: center;
-    margin: -1px 0px 0px -11px
+    margin: -1px 0px 0px -11px;
 }
 
 .avion-destinos5{
@@ -717,6 +722,7 @@ margin: 0px 0px 0px 35px;
     margin-left: 5px;
     font-size: 14px;
     font-weight: bold;
+    cursor:pointer;
 }
 
 .acceso-vuelos5:hover { 
@@ -809,6 +815,7 @@ margin: 0px 0px 0px 35px;
     margin-left: 5px;
     font-size: 14px;
     font-weight: bold;
+    cursor:pointer;
 }
 
 .acceso-vuelos6:hover { 
@@ -902,6 +909,7 @@ margin: 0px 0px 0px 35px;
     margin-left: 5px;
     font-size: 14px;
     font-weight: bold;
+    cursor:pointer;
 }
 
 .acceso-vuelos7:hover { 
@@ -1338,6 +1346,16 @@ margin: 0px 0px 0px 35px;
     color: #3c3c3b;
 }
 
+.footerinfo{
+    font-size: 12px;
+}
+
+.seguinos-footer{
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+
 .item-footer {
     padding: 20px;
 }
@@ -1351,6 +1369,8 @@ margin: 0px 0px 0px 35px;
 
 .itemFooterlogo {
     grid-area: itemFooterlogo;
+    margin-left: -50px;
+
 }
 
 .itemFooterRedes {
@@ -1383,7 +1403,7 @@ margin: 0px 0px 0px 35px;
     color: #3c3c3b;
     padding-bottom: 12px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
     text-align: left;
 }
@@ -1402,7 +1422,7 @@ margin: 0px 0px 0px 35px;
     color: #3c3c3b;
     padding-bottom: 12px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 27px;
     text-align: left;
 }
@@ -1442,6 +1462,11 @@ margin: 0px 0px 0px 35px;
             transform: translateX(-170%);
         }
     }
+
+    .container-box{
+        width: 80%;
+    }
+    
 }
 
 /*CORTE PARA PANTALLA DE CELULAR*/
@@ -1496,5 +1521,6 @@ margin: 0px 0px 0px 35px;
             transform: translateX(-120%);
         }
     }
- 
+
+
 }
