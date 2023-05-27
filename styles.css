@@ -63,6 +63,7 @@ main{
     font-size: 1000;
     align-self: center;
     margin-left: 8px;
+    font-family: 'Alkatra', cursive;
     /* margin-top: 7px; */
 
 }
@@ -1025,6 +1026,7 @@ margin: 0px 0px 0px 35px;
     margin-top: 90px;
     font-family: 'Prompt', sans-serif;
     color: #1746A2;
+
 }
 
 .container-box {
@@ -1032,6 +1034,7 @@ margin: 0px 0px 0px 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .box {
@@ -1042,8 +1045,6 @@ margin: 0px 0px 0px 35px;
     padding: 25px;
     border: 2px solid #eeee;
     border-radius: 14px;
-   
-    
     text-align: center;
     margin-top: 60px;
 }
@@ -1179,7 +1180,7 @@ margin: 0px 0px 0px 35px;
 
 /* Inicia css Seccion Contacto y Footer */
 #contacto {
-    background-image: url("assets/nubes.png");
+    background-image: url("assets/Contacto/nubes.png");
     background-size: cover;
     margin-top: 70px;
     /* height: 100%; */
