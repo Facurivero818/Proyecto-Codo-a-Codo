@@ -20,6 +20,41 @@ ida.addEventListener("change", () => {
     }
   });
 
+  //PEDIR DATOS A API
+  const datos = async ()=>{
+    //SI PONES EL LINK EN EL NAVEGADOR TE TIRA EL JSON CON LOS DATOS
+    let info = await fetch('https://api.metar-taf.com/airports?api_key=Pg0Po77LflNg7F0dsbpX9lvDyS94pGTB',
+    {mode: 'no-cors',//SI COLOCO CORS, ME TIRA EL ERROR. Y DE ESTA FORMA NO TRAE LOS DATOS
+    headers: {'Content-Type': "aplication/json"}});
+    let resultado = await info.json();
+    console.log(resultado);
+  };
+  datos()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // VALIDACION FORMULARIO
 
@@ -45,8 +80,8 @@ for (var i = 0; i < nombre.length; i++) {
     return false;
   }
 }
+
 //VALIDAR MAIL  
-let valMail = true;
 let arroba = false;
 let nomUsuario = true;
 for (letra of email) {
@@ -55,18 +90,19 @@ for (letra of email) {
     break;
   }
   // VERIFICO QUE SOLO SE INGRESEN NUMEROS, LETRAS O PUNTO ANTES DEL @
-  else if (!((letra.charCodeAt(0) >= 65 && letra.charCodeAt(0) <= 90) || (letra.charCodeAt(0) >= 97 && letra.charCodeAt(0) <= 122) ||(letra.charCodeAt(0) >= 48 && letra.charCodeAt(0) <= 57) ||letra.charCodeAt(0) === 46)){
+  else if (!((letra.charCodeAt(0) >= 65 && letra.charCodeAt(0) <= 90) 
+  || (letra.charCodeAt(0) >= 97 && letra.charCodeAt(0) <= 122) 
+  || (letra.charCodeAt(0) >= 48 && letra.charCodeAt(0) <= 57) 
+  || letra.charCodeAt(0) === 46)){
     nomUsuario = false;
-}
-}
+  }
+}//SI NO HAY @ ENVIO UN ALERT
 if(arroba==false){
   alert('Debe colocar el @');
-  valMail = false;
   return false;
-}
+}//SI NO HAY SOLO LETRAS, NUMEROS O PUNTOS ANTES DEL @ ENVIO UN ALERT
 if(arroba == true && nomUsuario==false){
   alert('Solo se aceptan letras, numeros y puntos antes del @')
-  valMail = false;
   return false;
 } 
 
