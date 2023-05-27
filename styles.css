@@ -16,6 +16,22 @@ body{
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
+#titulo{
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+.titulo{
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+main{
+    background-color: #FFF7E9;
+}
+
+
 /*ESTILOS MENU*/
 .menu{
     position:fixed;
@@ -82,7 +98,7 @@ ul {
 #fly{
     background-image: url("assets/caribe3.jpg");
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 
 }
 .sections{
@@ -99,7 +115,7 @@ ul {
     width: 70vw;
     min-height: 250px;
     max-width: 880px;
-    padding: 40px;
+    padding: 20px 40px 5px 40px;
     margin-bottom: 100px;
     margin-top: 150px;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
@@ -116,6 +132,7 @@ ul {
 .formulary__boxcheck{
     text-align: center;
     width:70%;
+    height: 37px;
     border-radius: 10px;
     padding:6px;
 }
@@ -147,6 +164,7 @@ ul {
 
 .formulary__button{
     width: 70%;
+    height: 37px;
     text-align: center;
     background-color: transparent;
     border-radius: 15px; 
@@ -246,12 +264,13 @@ ul {
     padding: 11px;
     width: 200px;
     border-radius: 15px;
+    font-family: 'Prompt', sans-serif;
 }
 
 /*ESTILO SECCIÓN DESTINOS*/
 
 #destination{
-    background-color:#FFF7E9;
+    background-color: #FFF7E9;
 }
  
 
@@ -259,8 +278,8 @@ ul {
 .destination1{
     display: inline-block;
     padding: 20px;
-    margin: 60px 8px 8px 8px;
-    background-color: #FFF7E9;
+    margin: 50px 10px 50px 10px;
+    background-color: #efe2cb;
     width: 350px;
     height: 500px; 
     align-items: center;
@@ -286,11 +305,11 @@ ul {
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
-  font-family: 'Prompt';
+  font-family: 'Prompt', sans-serif;
 }
 
 .descripcion-destino1{ 
-  margin:12px 0px 15px 0px;
+  margin:12px 0px 14px 0px;
   text-align: center;
   font-size: 13px;
 }
@@ -339,7 +358,7 @@ ul {
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
-    font-family: 'Prompt';
+    font-family: 'Prompt', sans-serif;
     font-size: 12px;
 }
 
@@ -351,8 +370,8 @@ ul {
 .destination2{
   display: inline-block;
   padding: 20px;
-  margin: 60px 8px 8px 8px;
-  background-color: #FFF7E9;
+  margin: 50px 10px 50px 10px;
+  background-color: #efe2cb;
   width: 350px;
   height: 500px; 
   align-items: center;
@@ -378,11 +397,11 @@ color:#FFF7E9;
 background: linear-gradient(to left,#5F9DF7,#1746A2);
 margin: 0 auto;
 display: block;
-font-family: 'Prompt';
+font-family: 'Prompt', sans-serif;
 }
 
 .descripcion-destino2{ 
-margin: 12px 0px 35px 0px;
+margin: 12px 0px 34px 0px;
 text-align: center;
 font-size: 13px;
 }
@@ -431,7 +450,7 @@ margin: 0px 0px 0px 35px;
   padding: 9px 30px;
   color:#FFF7E9;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
-  font-family: 'Prompt';
+  font-family: 'Prompt', sans-serif;
   font-size: 12px;
 }
 
@@ -444,8 +463,8 @@ margin: 0px 0px 0px 35px;
 .destination3{
     display: inline-block;
     padding: 20px;
-    margin: 60px 8px 8px 8px;
-    background-color: #FFF7E9;
+    margin: 50px 10px 50px 10px;
+    background-color: #efe2cb;
     width: 350px;
     height: 500px; 
     align-items: center;
@@ -471,7 +490,7 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
-  font-family: 'Prompt';
+  font-family: 'Prompt', sans-serif;
 }
 
 .descripcion-destino3{ 
@@ -524,7 +543,7 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
-    font-family: 'Prompt';
+    font-family: 'Prompt', sans-serif;
     font-size: 12px;
 }
 
@@ -536,8 +555,8 @@ margin: 0px 0px 0px 35px;
 .destination4{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 60px 8px;
-    background-color: #FFF7E9;
+    margin: 50px 10px 50px 10px;
+    background-color: #efe2cb;
     width: 350px;
     height: 500px; 
     align-items: center;
@@ -563,7 +582,7 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
-  font-family: 'Prompt';
+  font-family: 'Prompt', sans-serif;
 }
 
 .descripcion-destino4{ 
@@ -616,7 +635,7 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
-    font-family: 'Prompt';
+    font-family: 'Prompt', sans-serif;
     font-size: 12px;
 }
 
@@ -629,8 +648,8 @@ margin: 0px 0px 0px 35px;
 .destination5{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 60px 8px;
-    background-color: #FFF7E9;
+    margin: 50px 10px 50px 10px;
+    background-color: #efe2cb;
     width: 350px;
     height: 500px; 
     align-items: center;
@@ -656,11 +675,11 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
-  font-family: 'Prompt';
+  font-family: 'Prompt', sans-serif;
 }
 
 .descripcion-destino5{ 
-  margin:12px 0px 16px 0px;
+  margin:12px 0px 35px 0px;
   text-align: center;
   font-size: 13px;
 }
@@ -709,7 +728,7 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
-    font-family: 'Prompt';
+    font-family: 'Prompt', sans-serif;
     font-size: 12px;
 }
 
@@ -721,8 +740,8 @@ margin: 0px 0px 0px 35px;
 .destination6{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 60px 8px;
-    background-color: #FFF7E9;
+    margin: 50px 10px 50px 10px;
+    background-color: #efe2cb;
     width: 350px;
     height: 500px; 
     align-items: center;
@@ -748,11 +767,11 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
-  font-family: 'Prompt';
+  font-family: 'Prompt', sans-serif;
 }
 
 .descripcion-destino6{ 
-  margin:12px 0px 16px 0px;
+  margin:12px 0px 34px 0px;
   text-align: center;
   font-size: 13px;
 }
@@ -801,7 +820,7 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
-    font-family: 'Prompt';
+    font-family: 'Prompt', sans-serif;
     font-size: 12px;
 }
 
@@ -814,8 +833,8 @@ margin: 0px 0px 0px 35px;
 .destination7{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 60px 8px;
-    background-color: #FFF7E9;
+    margin: 50px 10px 50px 10px;
+    background-color: #efe2cb;
     width: 350px;
     height: 500px; 
     align-items: center;
@@ -841,11 +860,11 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
-  font-family: 'Prompt';
+  font-family: 'Prompt', sans-serif;
 }
 
 .descripcion-destino7{ 
-  margin:12px 0px 16px 0px;
+  margin:12px 0px 36px 0px;
   text-align: center;
   font-size: 13px;
 }
@@ -894,7 +913,7 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
-    font-family: 'Prompt';
+    font-family: 'Prompt', sans-serif;
     font-size: 12px;
 }
 
@@ -906,8 +925,8 @@ margin: 0px 0px 0px 35px;
 .destination8{
     display: inline-block;
     padding: 20px;
-    margin: 8px 8px 60px 8px;
-    background-color: #FFF7E9;
+    margin: 50px 10px 50px 10px;
+    background-color: #efe2cb;
     width: 350px;
     height: 500px; 
     align-items: center;
@@ -933,11 +952,11 @@ margin: 0px 0px 0px 35px;
   background: linear-gradient(to left,#5F9DF7,#1746A2);
   margin: 0 auto;
   display: block;
-  font-family: 'Prompt';
+  font-family: 'Prompt', sans-serif;
 }
 
 .descripcion-destino8{ 
-  margin:12px 0px 17px 0px;
+  margin:12px 0px 35px 0px;
   text-align: center;
   font-size: 13px;
 }
@@ -986,7 +1005,7 @@ margin: 0px 0px 0px 35px;
     padding: 9px 30px;
     color:#FFF7E9;
     background: linear-gradient(to left,#5F9DF7,#1746A2);
-    font-family: 'Prompt';
+    font-family: 'Prompt', sans-serif;
     font-size: 12px;
 }
 
@@ -995,6 +1014,12 @@ margin: 0px 0px 0px 35px;
 }
 
 /*ESTILO TIPS*/
+
+#tips{
+    background-color: #d9e1ec ;
+}
+
+
 .title {
     text-align: center;
     font-size: 20px;
@@ -1057,7 +1082,7 @@ margin: 0px 0px 0px 35px;
 }
 
 .box:hover {
-    background: #fbfbfe;
+    background: #FFF7E9;
 }
 
 .box:hover img {
@@ -1157,7 +1182,7 @@ margin: 0px 0px 0px 35px;
 #contacto {
     background-image: url("assets/Contacto/nubes.png");
     background-size: cover;
-    padding: 70px;
+    margin-top: 70px;
     /* height: 100%; */
 }
 
@@ -1289,7 +1314,7 @@ margin: 0px 0px 0px 35px;
 
 /* ----footer--------------------------- */
 .contenedor-footer {
-    background: linear-gradient(to left, #e0af59, #FF731D);
+    background: linear-gradient(to left, #d88b5b, #efe2cb);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1362,7 +1387,7 @@ margin: 0px 0px 0px 35px;
     color: #3c3c3b;
     padding-bottom: 12px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
     text-align: left;
 }
