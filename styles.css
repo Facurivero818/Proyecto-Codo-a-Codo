@@ -1265,6 +1265,17 @@ margin: 0px 0px 0px 35px;
     outline-color: #FF731D;
 }
 
+.boton_form{
+    border: none;
+    background-color: #FF731D;
+    color:#f6f7f6;
+    font-size: 800;
+    padding: 11px;
+    width: 200px;
+    border-radius: 15px;
+    font-family: 'Prompt', sans-serif;
+}
+
 .pIcon {
     text-align: center;
 }
