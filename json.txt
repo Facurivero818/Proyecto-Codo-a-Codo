@@ -1,0 +1,252 @@
+{"airports": [
+        {
+            "id": "AAAD",
+            "name": "Adelaide Airpor",
+            "lat": -34.91667,
+            "lng": 138.51667,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AAWR",
+            "name": "Woomera Aerodro",
+            "lat": -31.13333,
+            "lng": 136.8,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AAXX",
+            "name": "Rothera Point Airport",
+            "lat": -67.56755,
+            "lng": -68.1271,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "ABCV",
+            "name": "Charleville Arp",
+            "lat": -26.41667,
+            "lng": 146.26667,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "ABGL",
+            "name": "Gladstone",
+            "lat": -23.85,
+            "lng": 151.26667,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "ABMA",
+            "name": "Mount Isa Airpo",
+            "lat": -20.63333,
+            "lng": 139.46667,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "ABTL",
+            "name": "Townsville(aus-",
+            "lat": -19.25,
+            "lng": 146.75,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "ACCC",
+            "name": "Cocos Island Ar",
+            "lat": -12.16667,
+            "lng": 96.81667,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "ACFC",
+            "name": "ACFC",
+            "lat": 15.25428,
+            "lng": 120.67758,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AD-0001",
+            "name": "Terra Guindaldes Heliport",
+            "lat": 42.54626,
+            "lng": 1.51916,
+            "metar": false,
+            "taf": false,
+            "deleted": 1
+        },
+        {
+            "id": "AD-0002",
+            "name": "Andorra la Vella (Our Lady of Meritxell Hospital) Heliport",
+            "lat": 42.51123,
+            "lng": 1.53365,
+            "metar": false,
+            "taf": false,
+            "deleted": 1
+        },
+        {
+            "id": "ADDN",
+            "name": "Darwin (aus-afb",
+            "lat": -12.4,
+            "lng": 130.86667,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "ADGV",
+            "name": "Gove Airport",
+            "lat": -12.26667,
+            "lng": 136.81667,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0002",
+            "name": "Burj al Arab Resort Helipad",
+            "lat": 25.14133,
+            "lng": 55.1855,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0003",
+            "name": "Skydive Dubai Airport",
+            "lat": 25.0902,
+            "lng": 55.13265,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0004",
+            "name": "Sheikh Sultan Bin Khalifa bin Zayed Al Nahyan Palace Heliport",
+            "lat": 25.12257,
+            "lng": 55.17468,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0005",
+            "name": "Kempinski Emirates Palace Twin Heliport",
+            "lat": 24.4621,
+            "lng": 54.32053,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0006",
+            "name": "Jebel Ali Seaplane Base",
+            "lat": 24.98897,
+            "lng": 55.0238,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0007",
+            "name": "Al Ghuwaifat Border Post Helipad",
+            "lat": 24.12035,
+            "lng": 51.60052,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0009",
+            "name": "Delma Hospital Helipad",
+            "lat": 24.4756,
+            "lng": 52.3101,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0010",
+            "name": "Schumacher Heliport",
+            "lat": 25.22181,
+            "lng": 55.13884,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0011",
+            "name": "Palm Jumeirah Heliport",
+            "lat": 25.1273,
+            "lng": 55.11409,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0012",
+            "name": "Waldorf Astoria Dubai Palm Jumeirah Helipad",
+            "lat": 25.13337,
+            "lng": 55.15038,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0013",
+            "name": "Oceana Palm Jumeirah Helipad",
+            "lat": 25.11008,
+            "lng": 55.13517,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0014",
+            "name": "Ghantoot Racing & Polo Club Helipad",
+            "lat": 24.86824,
+            "lng": 54.90556,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0015",
+            "name": "Golden Tulip Al Jazira Helipad",
+            "lat": 24.85863,
+            "lng": 54.895,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0016",
+            "name": "Ghantoot Hotel 1 Helipad",
+            "lat": 24.86604,
+            "lng": 54.88826,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0017",
+            "name": "Ghantoot Hotel 2 Helipad",
+            "lat": 24.86542,
+            "lng": 54.88228,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0018",
+            "name": "Ghantoot Hotel 3 Helipad",
+            "lat": 24.89495,
+            "lng": 54.86029,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0019",
+            "name": "Dubai Festival City Helipad",
+            "lat": 25.22077,
+            "lng": 55.34923,
+            "metar": false,
+            "taf": false
+        },
+        {
+            "id": "AE-0020",
+            "name": "Yas Marina Heliport",
+            "lat": 24.46837,
+            "lng": 54.60956,
+            "metar": false,
+            "taf": false
+        }]
+}

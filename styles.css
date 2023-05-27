@@ -192,13 +192,13 @@ ul {
     width: 100%;
 }
 
-.formulary__boxdestination__box> input{
+.formulary__boxdestination__box> select{
     border:none;
     font-family: 'Poppins', sans-serif;
-    width: 80%;
-    padding: 10px;
+    width: 70%;
+    /* height: 20px; */
+    padding: 5px;
     margin: 6px;
-    accent-color:#9A9BC0;
     border-radius: 10px;
     outline-color: #FF731D;
 }
@@ -207,6 +207,10 @@ ul {
     margin-left: 6px;
 }
 
+.formulary__boxdestination__box> option{
+    width: 100%;
+    color: black;
+}
 
 .formulary__boxdate__hide{
     margin-top: 4px;

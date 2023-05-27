@@ -20,18 +20,26 @@ ida.addEventListener("change", () => {
     }
   });
 
-  //PEDIR DATOS A API
+  //PEDIR DATOS A API, NO PUDIMOS CONSUMIR UNA API POR PROBLEMAS DE CORS, POR ESO CREAMOS UN ARCHIVO JSON CON DICHOS DATOS Y LO CONSUMIMOS
   const datos = async ()=>{
-    //SI PONES EL LINK EN EL NAVEGADOR TE TIRA EL JSON CON LOS DATOS
-    let info = await fetch('https://api.metar-taf.com/airports?api_key=Pg0Po77LflNg7F0dsbpX9lvDyS94pGTB',
-    {mode: 'no-cors',//SI COLOCO CORS, ME TIRA EL ERROR. Y DE ESTA FORMA NO TRAE LOS DATOS
-    headers: {'Content-Type': "aplication/json"}});
+    let info = await fetch('json.txt');
     let resultado = await info.json();
-    console.log(resultado);
+    console.log(resultado.airports[0].name)
+    
+    let opciones = '';
+    for (aeropuerto of resultado.airports){
+      opciones += `<option value= '${aeropuerto.name}'>'${aeropuerto.name}'</option>`;
+    } 
+    salida.innerHTML= opciones;
+    vuelta.innerHTML= opciones;
+
   };
+
+  const salida = document.getElementById('aeropuertoSalida');
+  const vuelta = document.getElementById('aeropuertoVuelta');
+
   datos()
-
-
+  
 
 
 
