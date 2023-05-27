@@ -470,7 +470,7 @@
 
                         <div class=" itemFormularioContacto itemNombre">
                             <i class="fa-solid fa-user fa-lg" style="color: #FF731D;"></i>
-                            <input type="text" id="nombre" placeholder="mi nombre es">
+                            <input type="text" id="nombreContacto" placeholder="mi nombre es" required>
                         </div>
 
                         <div class=" itemFormularioContacto itemEmail">
@@ -489,7 +489,7 @@
                         </div>
 
                         <div class="formulary__button itemBoton">
-                            <button>ENVIAR</button>
+                            <button value="Validate" onclick="return validarFormularioContacto()">ENVIAR</button>
                         </div>
                     </form>
                 </div>
@@ -543,7 +543,7 @@
         </div>
 
     </main>
-    
+
     <footer class="contenedor-footer">
         <div class="item-footer contenedorPrimerItem-footer">
             <div class="itemFooterlogo">
