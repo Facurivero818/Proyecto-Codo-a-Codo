@@ -275,6 +275,7 @@ ul {
 
 #destination{
     background-color: #FFF7E9;
+    padding-top: 75px;
 }
  
 
@@ -1029,6 +1030,7 @@ margin: 0px 0px 0px 35px;
 
 #tips{
     background-color: #d9e1ec ;
+    
 }
 
 
@@ -1341,7 +1343,7 @@ margin: 0px 0px 0px 35px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 25px;
+    padding: 10px;
     justify-content: space-evenly;
     color: #3c3c3b;
 }
@@ -1353,11 +1355,6 @@ margin: 0px 0px 0px 35px;
 .seguinos-footer{
     font-size: 18px;
     margin-top: -5px;
-}
-
-
-.item-footer {
-    padding: 20px;
 }
 
 .contenedorPrimerItem-footer {
@@ -1420,7 +1417,7 @@ margin: 0px 0px 0px 35px;
     text-decoration: none;
     font-size: medium;
     color: #3c3c3b;
-    padding-bottom: 12px;
+    padding-bottom: 6px;
     font-weight: 700;
     font-size: 14px;
     line-height: 27px;
@@ -1512,6 +1509,15 @@ margin: 0px 0px 0px 35px;
         .itemImagen{
           display: none;
          }
+
+         .itemFooterTitulo {
+            display: none;
+        }
+        
+        .itemFooterLista {
+            display: none;
+        
+        }
         
     @keyframes slide{
         0%{
