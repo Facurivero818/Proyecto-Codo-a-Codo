@@ -21,19 +21,21 @@ ida.addEventListener("change", () => {
   });
 
   //PEDIR DATOS A API
-  const datos = async ()=>{
-    //SI PONES EL LINK EN EL NAVEGADOR TE TIRA EL JSON CON LOS DATOS
-    let info = await fetch('https://api.metar-taf.com/airports?api_key=Pg0Po77LflNg7F0dsbpX9lvDyS94pGTB',
-    {mode: 'no-cors',//SI COLOCO CORS, ME TIRA EL ERROR. Y DE ESTA FORMA NO TRAE LOS DATOS
-    headers: {'Content-Type': "aplication/json"}});
-    let resultado = await info.json();
-    console.log(resultado);
-  };
-  datos()
+// Ejemplo de servidor proxy inverso utilizando AWS Lambda y Serverless Framework
 
+const datos = () => {
+  const apiKey = 'Pg0Po77LflNg7F0dsbpX9lvDyS94pGTB';
+  const apiUrl = `https://api.metar-taf.com/airports?api_key=${apiKey}`;
 
+  $.get(apiUrl, function(data) {
+    console.log(data);
+  })
+  .fail(function(error) {
+    console.error('Error:', error);
+  });
+};
 
-
+datos();
 
 
 
