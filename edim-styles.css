@@ -103,16 +103,7 @@ h1{
   object-position: center;
   border-radius: 5px;
   margin-top: 40px;
-  margin-bottom: 35px;
-}
-
-.calton-hill{
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 5px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .hombre{
@@ -121,7 +112,7 @@ h1{
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
   }
   .ciudad{
     width: 100%;
@@ -129,7 +120,7 @@ h1{
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
   }
 
 /*ESTILOS WIDGETS*/
